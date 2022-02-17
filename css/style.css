@@ -2,8 +2,12 @@ body {
     background-color: hsl(150, 20%, 98%);
     margin: 0% 10%;
     padding: 0%;
+    letter-spacing: 3px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     clear: both;
+}
+h1, h2 {
+    color: #252525;
 }
 .top-box {
     background-color: hsl(150, 20%, 98%);
@@ -12,20 +16,23 @@ body {
     position: relative;
     margin-top: 15px;
 }
-#header-logo {
-    width: 200px;
-    height: 60px;
+#top-image {
+    width: 25%;
     margin-left: 10px;
+    float: left;
 }
 ul {
     position: absolute;
-    top: 0%;
-    right: 150px;
-}
+    top: 30%;
+    right: 20px;
+    float: right;
+    }
     li {
     display: inline;
     margin-right: 30px;
+    vertical-align: middle;
 }
+/* donate button design)
 button {
     background-color: whitesmoke;
     border-color: #00a870;
@@ -53,6 +60,7 @@ button:hover {
     margin-right: 5px;    
     vertical-align: middle;
     }
+*/
 .aside-box {
     height: 200px;/*add responsive height & width for vertical & horizontal img*/
     float: right;
@@ -69,4 +77,7 @@ button:hover {
     color: whitesmoke;
     margin-left: 20px;
     padding: 0%;
+}
+#push-down {
+    margin-top: 200px;
 }
