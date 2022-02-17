@@ -1,12 +1,30 @@
 body {
     background-color: hsl(150, 20%, 98%);
-    margin: 0%;
+    margin: 0% 10%;
     padding: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    clear: both;
 }
-.top-line {
-    background-color: a80038;
-    color: whitesmoke;
+.top-box {
+    background-color: hsl(150, 20%, 98%);
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    margin-top: 15px;
+}
+#header-logo {
+    width: 200px;
+    height: 60px;
+    margin-left: 10px;
+}
+ul {
+    position: absolute;
+    top: 0%;
+    right: 150px;
+}
+    li {
+    display: inline;
+    margin-right: 30px;
 }
 button {
     background-color: whitesmoke;
@@ -22,6 +40,10 @@ button {
     cursor: pointer;
     height: 40px;
     width: 120px;
+    margin-right: 10px;
+    position: absolute;
+    top:7%;
+    right: 0px;
 }  
 button:hover {
     background-color: #00a870;
@@ -31,3 +53,20 @@ button:hover {
     margin-right: 5px;    
     vertical-align: middle;
     }
+.aside-box {
+    height: 200px;/*add responsive height & width for vertical & horizontal img*/
+    float: right;
+    /*next element shall have clear:right; */
+}
+.top-line {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    background-color: #a80038;
+    clear: both;
+}   
+.top-line-text {
+    color: whitesmoke;
+    margin-left: 20px;
+    padding: 0%;
+}
