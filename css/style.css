@@ -15,27 +15,27 @@ h1, h2 {
     float: left;
 }
 #nav-top {
-    font-size: 110%;    
+    font-size: 110%;
+    float:right; 
 }
 li {
-    float: right;
     list-style-type: none;
     margin-right: 30px;
+    display: inline;
 }
 #nav-top a {
     text-decoration: none;
-    margin-right: 10px;
-    vertical-align: middle;
     color: inherit;
     font-weight: 400;
-   
-}
-#top-image, #nav-top {
-    line-height: 75px;
+    vertical-align: middle;
+    }
+header {
+    align-items: center;
 }
 #nav-top a:hover {
+    font-weight: 600;
     border-bottom: 1px solid #3a3a3a;
-    color: red;
+    color: rgb(4, 156, 4);
 }
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -85,4 +85,7 @@ button:hover {
     color: whitesmoke;
     margin-left: 20px;
     padding: 0%;
+}
+main {
+    clear: both;
 }
