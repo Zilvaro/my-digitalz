@@ -6,8 +6,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
 }/*font-weight 'normal' - some elements could be 300*/
-h1, h2 {
-    color: #252525;
+
+main {
+    
 }
 #top-image {
     width: 250px;
@@ -31,7 +32,7 @@ li {
     }
 header {
     align-items: center;
-}
+    }
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -43,10 +44,7 @@ header {
 @media (max-width: 800px) {
     nav { display: none; }
 }
-.responsive {
-    width: 100%;
-    height: auto;
-    }
+
 /* donate button design)
 button {
     background-color: whitesmoke;
@@ -76,6 +74,21 @@ button:hover {
     vertical-align: middle;
     }
 */
+
+.container {
+    position: relative;
+    text-align: center;
+    color: aqua;
+    margin-top: 10px;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
 .aside-box {
     height: 200px;/*add responsive height & width for vertical & horizontal img*/
     float: right;
@@ -93,6 +106,5 @@ button:hover {
     margin-left: 20px;
     padding: 0%;
 }
-main {
-    clear: both;
-}
+
+
