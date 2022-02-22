@@ -75,31 +75,30 @@ li {
 .action-button {
     float: left;
     width: 50%;
-    height: 32vw;
+    height: 30vw;
     text-align: center;
     overflow: hidden;
 }
 #button-left {
     width: 25vw;
-    height: 23vw;
-    border: #305932 3px solid;
+    height: 20vw;
+    border: #8ED3F4 4px solid;
     margin: 4vw auto;
 }
 #button-right {
     width: 25vw;
-    height: 23vw;
-    border: #305932 3px solid;
+    height: 20vw;
+    border: #8ED3F4 4px solid;
     margin: 4vw auto;
 }
 .action-button i {
-    font-size: 7vw;
-    padding: 3vw;
+    font-size: 8vw;
+    padding: 1vw;
     margin: 2vw 0;
-    border: #305932 1px solid; 
     color:#8ED3F4
 }
 .action-button h5 {
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 footer {
