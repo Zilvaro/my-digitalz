@@ -124,7 +124,7 @@ section {
 }
 @media (min-width: 600px) {
     footer { display: none;}
-    section { display: none;}
+    section .filler  { display: none;}
 }
 
 .footer-button {
@@ -153,4 +153,20 @@ section {
     padding: 3%;
     margin-bottom: 2vw;
 }
+
+
+/*Tasking CSS*/
+
+.top-line {
+    width: 100%;
+    height: 42px;
+    background-color: #305932;
+}
+.top-line h2 {
+    color: #fcfbfa;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
 
