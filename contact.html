@@ -39,22 +39,29 @@
             <h2>Contact</h2>
         </div>
 
+        <div>
+            <img id="contact-form-background" src="/images/unsplash-jan-kahanek-184677-notes.jpg" 
+            alt="a wooden table with opened notebook and pencil on top of it" width="1500" height="1000">
+            <h3>Thanks for your message!</h3>
         <form method="post" action="https://formdump.codeinstitute.net/" class="contact-form">
-            <label for="fname">First Name</label>
+            <label for="fname">First Name:</label>
             <input class="text-input" type="text" id="fname" name="first-name" placeholder="Your name.." required>
             
-            <label for="lname">Last Name</label>
+            <label for="lname">Last Name:</label>
             <input class="text-input" type="text" id="lname" name="last-name" placeholder="Your last name.." required>
 
             <label for="phone">Phone number:</label>
             <input class="text-input" type="tel" id="phone" name="phone" placeholder="+41-79-123-1234" pattern="+[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{4}" required>
 
-            <label for="email">Email</label>
+            <label for="email">Email:</label>
             <input class="text-input" type="text" id="email" name="email" placeholder="Your email.." required>
 
-            <label for="email">Message</label>
-            <input class="text-input" type="text" id="message" name="message" placeholder="Your message.." required>
+            <label for="message-box">Message:</label>
+            <textarea class="text-input" id="message-box" name="message" placeholder="Your message.." required></textarea>
+
+
         </form>
+        </div>
     </main>
     <div id="copyright-text">
         <p>Copyright © 2022 Digital Case Sàrl. The Digital Case Sàrl is not responsible for the content of external
