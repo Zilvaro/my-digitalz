@@ -261,24 +261,25 @@ section {
     float: left;
     margin: 0 auto;
 }
-
 @media (max-width: 600px) {
     #contact-form-background { display: none;}
 }
-
 .contact-form {
-    margin: 50px 10% 0 0;
+    margin: 40px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    font-weight: 500;
+    background-color: rgba(138, 134, 131, 0.5);
     max-width: 400px;
     position: relative;
     left: 5%;
     padding: 30px;
 }
-
+#text-transparent {
+    color:rgba(138, 134, 131, 0);
+}
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: #000;
     width: 100%;
     height: 30px;
     margin: 5px 0 20px 0;
@@ -294,27 +295,34 @@ section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 3px;
     }
-
-
-
-
+#contact-thanks {
+    width: 100%;
+    height: 10vw;
+    position: relative;
+    top: 70px;
+    right: 40px;
+}
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #8ED3F4;
 }
-.join-button {
+.text-input:focus {
+    background-color: white;
+}
+.send-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #305932;
     color: #fafafa;
     display: block;
 }
-.join-button:hover {
+.send-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #305932;
+    font-weight: 500;
 }
 
 
