@@ -27,6 +27,11 @@
     font-weight: 500;
     text-decoration: underline;    
 }
+.selection-button a:hover {
+    font-weight: 600;
+    border-bottom: 1px solid #3a3a3a;
+    color: rgb(4, 156, 4);
+}
 
 
 /*info article styling*/
