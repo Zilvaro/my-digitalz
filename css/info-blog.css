@@ -1,0 +1,51 @@
+
+/*info-css*/
+
+.selection-tab {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline;
+}
+.selection-button {
+    float: left;
+    width: 25%;
+    height: 3rem;
+    text-align: center;
+}
+.selection-button a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 10%;
+}
+.active-selection {
+    background-color: rgba(48, 89, 50, 0.1);
+}
+.active-selection a {
+    color: #305932;    
+}
+
+
+/*info article styling*/
+.info-article {
+    clear: both;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 3vw;
+}
+.article-image {
+    width: 25vw;
+    height: 25vw;
+    margin-right: 3vw;
+    background-image: url(../images/marius-ciocirlan-398931-unsplash-about.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border-radius: 50%;
+    border:rgba(48, 89, 50, 1) 1px solid;
+    float: right;
+}
