@@ -91,3 +91,16 @@
     font-weight: 400;
     margin: 5vw 1.5rem 5vw 1.5rem;
 }
+.span-bold {
+    font-weight: 600;
+}
+#primary-rights li {
+        display: list-item;
+        list-style-type: decimal;
+        margin-left: 5rem;       
+}
+#policy-personal-data li {
+    display: list-item;
+    list-style-type: square;
+    margin-left: 5rem;
+}
