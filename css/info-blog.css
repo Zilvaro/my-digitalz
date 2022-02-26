@@ -45,15 +45,27 @@
 .article-image {
     width: 23vw;
     height: 23vw;
-    margin-right: 2vw;
-    background-image: url(../images/marius-ciocirlan-398931-unsplash-about.jpg);
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    margin: 0 2vw 1vw 1vw;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 50%;
     border:rgba(48, 89, 50, 1) 1px solid;
     float: right;
 }
+/*images for different info articles*/
+#about-image {
+    background-image: url(../images/marius-ciocirlan-398931-unsplash-about.jpg);
+}
+#tc-image {
+    background-image: url(../images/unsplash-stefan-stefancik-257625-terms.jpg);
+}
+#privacy-image {
+    background-image: url(../images/unsplash-jeremy-bishop-170994-privacy.jpg);
+}
+
+
+
 .info-article p {
     padding: 8px 1.5rem;
     color: #111111;
@@ -62,6 +74,9 @@
 .info-article h1 {
     padding: 0 1.5rem 1rem;
     font-size: 2.2rem;
+}
+.info-article h3 {
+    padding-left: 1.5rem;
 }
 .info-article h4 {
     width: 90%;
