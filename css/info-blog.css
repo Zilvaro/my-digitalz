@@ -38,8 +38,8 @@
     margin-top: 3vw;
 }
 .article-image {
-    width: 25vw;
-    height: 25vw;
+    width: 23vw;
+    height: 23vw;
     margin-right: 3vw;
     background-image: url(../images/marius-ciocirlan-398931-unsplash-about.jpg);
     background-position: center; /* Center the image */
@@ -48,4 +48,26 @@
     border-radius: 50%;
     border:rgba(48, 89, 50, 1) 1px solid;
     float: right;
+}
+.info-article p {
+    padding: 8px 1.5rem;
+    color: #111111;
+    font-size: 1.1rem;
+}
+.info-article h1 {
+    padding: 10px 1.5rem;
+    font-size: 2.2rem;
+}
+.info-article h4 {
+    width: 60%;
+    padding: 1vw 1.5rem 2vw;
+}
+#copyright-text-info {
+    width: 90%;
+    height: auto;
+    clear: both;
+    float: left;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 5vw 1.5rem 5vw 1.5rem;
 }
