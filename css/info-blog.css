@@ -135,6 +135,7 @@
     background-color: rgba(138, 134, 131, 0.7);
     max-width: 400px;
     position: absolute;
+    text-align: center;
     top: 20vw;
     left: 4vw;
     
@@ -160,8 +161,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
-    
 }
+#profile-header {
+    width: 100%;
+    margin: 3vw auto 0;
+}
+#profile-h3 {
+    margin: 3vw auto 3w;
+    font-weight: 400;
+}
+#profile-text {
+    margin: 4vw 4vw 4vw 6vw;
+}
+
+
+
 
 /*copyright-text-info CSS*/
 
