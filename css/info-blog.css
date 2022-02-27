@@ -66,6 +66,9 @@
 #blog-funding-image {
     background-image: url(../images/donate-explain-small.jpg);
 }
+#blog-data-image {
+    background-image: url(../images/data-img-small.jpg);
+}
 
 
 
@@ -87,6 +90,10 @@
 }
 .span-bold {
     font-weight: 600;
+}
+.span-italic {
+    font-weight: 400;
+    font-style: italic;
 }
 .p-bold {
     font-weight: 600;

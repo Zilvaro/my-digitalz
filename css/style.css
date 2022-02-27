@@ -226,29 +226,47 @@ section {
 
 #test-container {
     width: 100%;
-    height: 200px;
-    position: relative;
+    height: 40vw;
+    background-image: url(../images/unsplash-284730-we-will-do.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolutee;
     margin-top: 5px;
-        
-}
-#test-image {
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    top: 0;
-    left: 0;
+           
 }
 #test-text p {
-    width: 96%;
-    height: 35px;
-    padding-top: 5px;
-    padding-left: 10px;
+    width: 94%;
+    height: 7vw;
+    padding: 1vw 2vw;
     background-color: rgba(17, 17, 17, 0.6);
     color: white;
-    font-size: 130%;
-    position: absolute;
-    top: 55%;
-    left: 0;
+    font-size: 5vw;
+    position: relative;
+    top: 25vw;
+    left: 0;  
+}
+#test-text-box {
+    width: 100%;
+    height: auto; 
+    color: #111111;
+    text-align: center;
+}
+#welcome-later {
+    margin-top: 5vw;
+    font-size: 7vw;
+    font-weight: 600;
+}
+#test-learning {
+    margin-top: 6vw;
+    font-size: 5vw;
+    font-weight: 600;
+}
+#sweting-image {
+    font-size: 8vw;
+    padding: 1vw;
+    margin: 2vw 0;
+    color:#8ED3F4
 }
 
 
