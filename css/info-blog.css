@@ -117,3 +117,16 @@
     margin-left: 1.5rem;
     color: blue;
 }
+
+/*Profile Page*/
+
+#profile-container{
+    margin: 60px 10% 0 0;
+    color: #fff;
+    font-weight: 500;
+    background-color: rgba(138, 134, 131, 0.5);
+    max-width: 400px;
+    position: relative;
+    left: 5%;
+    padding: 30px;
+}
