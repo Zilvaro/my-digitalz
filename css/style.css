@@ -115,13 +115,13 @@ li {
     overflow: hidden;
 }
 #button-left {
-    width: 25vw;
+    width: 22vw;
     height: 20vw;
     border: #8ED3F4 4px solid;
     margin: 4vw auto;
 }
 #button-right {
-    width: 25vw;
+    width: 22vw;
     height: 20vw;
     border: #8ED3F4 4px solid;
     margin: 4vw auto;
@@ -135,6 +135,28 @@ li {
 .action-button h5 {
     font-size: 3vw;
 }
+
+/*home-responsive design*/
+
+@media (max-width: 600px) {
+    #vertical-aside { display: none; }
+}
+@media (min-width: 600px) {
+    #horizontal-aside { display: none; }
+    #home-responsive-left {
+        width: 70%;
+        height: auto;
+        position: relative;
+        float: left;    }
+    #vertical-aside {
+        width: 25%;
+        height: auto;
+        position: relative;
+        float: right;
+    }
+}
+
+
 /*here is the ad-banners css*/
 .banner-container {
     width: 100%;
