@@ -238,17 +238,28 @@ section {
 
 /*Tasking CSS*/
 
-.top-line {
-    width: 100%;
-    height: auto;
+ul.breadcrumb {
+    padding: 10px 30px;
+    list-style: none;
     background-color: #305932;
-}
-.top-line h2 {
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 20px;
+    color:#fcfbfa;
+  }
+  ul.breadcrumb li+li:before {
     color: #fcfbfa;
-    font-weight: 400;
-    font-size: 4.5vw;
-    padding: 5px 20px;
-}
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #fcfbfa;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #fcfbfa;
+    text-decoration: underline;
+  }
 /*here is the test box testing*/
 
 #test-container {
