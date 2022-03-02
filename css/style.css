@@ -393,4 +393,5 @@ ul.breadcrumb {
 .filler {
     width: 100%;
     height: 4rem;
+    background-color: blue;
 }
