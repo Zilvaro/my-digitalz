@@ -1,10 +1,9 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![DigitalZ logo](/images/blue-logo.png)
 
-Welcome Zilvaro,
+Welcome!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The idea is to develop a digital solution for SME or non-profits where they can, without any investment into development or licenses, equip themselves with crowdfunding, crowdsourcing and e-commerce tools to run and grow their business. It has been my experience from the last 7 years that such solution would be very relevant and in demand (one of the potential cleints would be "DKIRU Mexico", starting field operation in April). This thought is supported by 2021-2027 EU initiative #AStrongerigitalEurope where the aim to dramatically increase the use of digital tools and data usage for the growth of Small & Medium Enterprises (SMEs).
 
 ## Gitpod Reminders
 
