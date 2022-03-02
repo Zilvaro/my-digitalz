@@ -234,11 +234,13 @@ footer {
     color: #305932;    
 }
 #copyright-text {
-    width: 90%;
-    height: auto;
-    font-size: 1rem;
-    padding: 3%;
-    margin-bottom: 2vw;
+    clear: both;
+    position: relative;
+    float: left;
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-left: 1.5rem;
+    margin-top: 4vw;
 }
 
 
@@ -318,7 +320,7 @@ ul.breadcrumb {
 
 #div-form {
     width: 100%;
-    height: 50vw;
+    height: auto;
     position: relative;
     float: left;
 }
@@ -393,5 +395,6 @@ ul.breadcrumb {
 .filler {
     width: 100%;
     height: 4rem;
-    background-color: blue;
+    clear: both;
+    background-color: transparent;
 }

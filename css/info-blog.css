@@ -191,8 +191,6 @@
     font-size: 130%;
 }
 
-
-
 /*copyright-text-info CSS*/
 
 .copyright-text-info {
@@ -200,7 +198,7 @@
     position: relative;
     float: left;
     font-weight: 500;
-    font-size: 1vw;
+    font-size: 0.8rem;
     margin-left: 1.5rem;
     margin-top: 4vw;
 }
