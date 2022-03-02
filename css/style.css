@@ -101,7 +101,6 @@ li {
     top: 30%;
     left: 57%;
 }
-
 #horizontal-aside {
     width: 100%;
     height: auto;
@@ -131,14 +130,6 @@ li {
     font-size: 3vw;
 }
 
-/*home-responsive design*/
-
-@media (max-width: 600px) {
-    #vertical-aside { display: none; }
-}
-
-
-
 /*here is the ad-banners css*/
 .banner-container {
     clear: both;
@@ -167,6 +158,11 @@ li {
     left: 0;
 }
 
+/*home-responsive design*/
+
+@media (max-width: 600px) {
+    #vertical-aside { display: none; }
+}
 @media (min-width: 600px) {
     #horizontal-aside { display: none; }
     #home-responsive-left {
@@ -392,4 +388,9 @@ ul.breadcrumb {
     background-color: #fafafa;
     color: #305932;
     font-weight: 500;
+}
+
+.filler {
+    width: 100%;
+    height: 4rem;
 }
