@@ -202,3 +202,21 @@
     margin-left: 1.5rem;
     margin-top: 4vw;
 }
+.more-info {
+    border-top: #34495e 1px solid;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    }
+.more-info a {
+    width: 100px;
+    border-radius: 2px;
+    margin: 1rem 0;
+    padding: 0.6rem;
+    text-align: center;
+    font-size: 110%;
+    background-color: #305932;
+    color: #fafafa;
+    display: block;
+    text-decoration: none;
+}
+
