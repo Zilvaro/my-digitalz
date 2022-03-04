@@ -3,13 +3,41 @@
 Welcome!
 
 
-The idea is to develop a digital solution for SME or non-profits where they can, without any investment into development or licenses, equip themselves with crowdfunding, crowdsourcing and e-commerce tools to run and grow their business. It has been my experience from the last 7 years that such solution would be very relevant and in demand (one of the potential cleints would be "DKIRU Mexico", starting field operation in April). This thought is supported by 2021-2027 EU initiative #AStrongerigitalEurope where the aim to dramatically increase the use of digital tools and data usage for the growth of Small & Medium Enterprises (SMEs).
+The idea is to develop a digital solution for SME or non-profits where they can, without any investment into development or licenses, equip themselves with crowdfunding, crowdsourcing and e-commerce tools to run and grow their business. It has been my experience from the last 7 years that such solution would be very relevant and in demand (one of the potential cleints would be "DKIRU", starting field operation in Mexico). This thought is supported by 2021-2027 EU initiative #AStrongerigitalEurope where the aim is to dramatically increase the use of digital tools and data usage for the growth of Small & Medium Enterprises (SMEs).
 
 Typically, a start-up, a small company or an association have a great idea, publish a facebook or business website and even connect to the e-commerce solution. However, the engagement from the business partners remain very low, because many tools are passive and you have to use several of them (WhatsApp, Facebook, Kickstarter, Shopify and a few more) to achieve the business impact. DigitaZ should be a unifying platform with several unique features that satisfy most of the business engagement needs in one platform.
 
 The initial sceleton of the platform (static several pages, made with html & css) can be found [here](https://zilvaro.github.io/my-digitalz/index.html).
 
 ![website preview](/readme-assets/#)
+
+
+This project is the HTML and CSS created functional core structure of the solution functioning as a teaser and allowing interested people to request more information. By adding more elements in JavaScript and Python later it will become more functional, easier-to-use and beneficial for different businesses.
+
+##Table of Contents
+
+#1. User Experience (UX) & Interface (UI)
+
+##1.1 General Rules
+[Go to the top](#table-of-contents)
+
+While designing the functionality & user experience there were applied some guiding principles:
+* 5 seconds rule: it has to be clear what the page is for in 5s (is it just for information, to perform an activity or leave a comment) and where to go next
+* call-to-action: at every page or stage there is an invitation "to do something" (contact, order, donate, perform a task or follow to instruction section).
+* consistency: every page has the same color scheme, similar structure, button design and follows a common practice of app design (OK buttons - green, main page - home, settings - in profile, etc.)
+
+
+##1.2 Personas
+
+Alex
+
+Marion
+
+
+
+##1.3 Color Scheme
+
+##1.4 Structure (Flow)
 
 
 
