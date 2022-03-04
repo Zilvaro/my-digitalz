@@ -205,7 +205,7 @@
 .more-info {
     border-top: #34495e 1px solid;
     padding-top: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     }
 .more-info a {
     width: 100px;
@@ -219,4 +219,5 @@
     display: block;
     text-decoration: none;
 }
+
 
