@@ -76,15 +76,37 @@ Then, the concept pages for mobile and wide-screen were designed:
 
 #2.Features
 
+
 #2.1 Navigation
 
+To increase site's accessibility and clarity 4 navigation elements were used:
+
+* 1. Top-navigation menu for screens wider than 600px 
+* 2. Bottom-navigation menu for screens bellow 600px width. Bottom nav is in the fixed-bottom position to be always accessible. 
+* 3. Middle page 2-button selection on the home-screen to core action-features: tasking & e-store (currently replased with Contact) 
+* 4. 'Breadcrumbs' on some internal pages with more related content (currently Info/article pages)
+
+On top-nav and bottom-nav a pseudo-element :hover applied to attract the attention to user-actions and possibilities.
+
+DigitalZ logo from each page alvayws returns a user to home-page.
+
 #2.2 Banners/Images
+
+To keep the consistent design, but allow some flexibility there are two options to createfor banners
 
 #2.3 Info/Blog
 
 #2.4 Contact/Registration
 
-#2.5 Features-to-come
+Contact form is made with fixed width to have a consistent look across different screens. In screens over 600px, the filler-bacground-image is added for a better visual look.
+
+Message-box has overflow:auto attribute to create a scroll bar for etter visibility if a text doesn't fit into the allocated field.
+
+Used :hover selector to highlight the input field if mouse is hovered over the input field Used :focus selector to highlight the input field when it gets clicked.
+
+#2.5 Features-to-come (list is not complete)
+
+*1. Log-in/Sign-on *2. Task creation, execution & approval *3. Sharing: to allow user to share screen with friends *4. Community selection *5. Point management
 
 
 
