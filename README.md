@@ -95,25 +95,51 @@ DigitalZ logo from each page always returns a user to the home-page.
 
 # 2.2 Banners/Images
 
-To keep the consistent design, but allow some flexibility there are two options to createfor banners
+Banners and images on the home page are the eye-catchers for the products, instructions, services or promotions. Those will be used as free or paid advertisement banners linking to further content or action pages.
+
+To keep the consistent design, but allow some flexibility there are two options to createfor banners:
+
+1. Flex box structure, where user (app admin) has fixed space, structure and design. Then he/she only changes the background image, text and link to futher material or site, e.g e-store's specific product page.
+2. Image placement as a banner. In case user has a special design neeeds and prepares image, say using Photoshop, it is possible to upload just that. (This choice will be implemented when back-end functionality is live).
+
+For the better appeal and user experience, the flow of the banners is different on small and large screens. In order not to have oversized buttons on large screens, the ASIDE banner is introduced. It moves into normal flow on small (less than 600px) screens.
+It uses 2 different banners, adjusted to match overall page style for better impact.
+
 
 # 2.3 Info/Blog
 
+Info/blog section is to provide user with extra information or instructions before asking to take an action. It preferably has rigid structure:
+
+- header line that separates from the logo and nav, and indicates what is this page (including 'breadcrumbs' where relevant)
+- photo, reflecting the purpose or content of the text
+- heading h1 text
+- summary text, that acts as a teaser to read more
+- text space, that has article structure of sections (with h3/h4 headings), lists of items.
+- call to action, where relevant, e.g Contact or Order.
+- copyright line, where relevant, e.g Privacy Policy page. 
+
+
+
 # 2.4 Contact/Registration
 
-Contact form is made with fixed width to have a consistent look across different screens. In screens over 600px, the filler-bacground-image is added for a better visual look.
+Contact form is made with fixed width to have a consistent look across different screen sizes. In screens over 600px, the filler-background-image is added for a better visual look.
 
-Message-box has overflow:auto attribute to create a scroll bar for etter visibility if a text doesn't fit into the allocated field.
+Message-box has overflow:auto attribute to create a scroll bar for better visibility if a text doesn't fit into the allocated field.
 
-Used :hover selector to highlight the input field if mouse is hovered over the input field Used :focus selector to highlight the input field when it gets clicked.
+Used :hover selector to highlight the input field if mouse is hovered over the input field 
+Used :focus selector to highlight the input field when it gets clicked.
+
 
 
 # 2.5 Features-to-come (list is not complete)
 
+Those features and some more are the integral part of completed DigitalZ solution and they will be build later with a knowledge outside html and css.
+
 1. Log-in/Sign-on 
-2. Task creation, execution & approval 
+2. Task creation, execution & approval. !Note: MyTasks and e-store (Contact) buttons are included to the project at this stage, because they are structurally critical for the application. The true functionality will be added at the later stage (JavaScript/Python)
 3. Sharing: to allow user to share screen with friends 
-4. Community selection *5. Point management
+4. Community selection 
+5. Point management
 
 
 
