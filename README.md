@@ -129,8 +129,7 @@ Message-box has overflow:auto attribute to create a scroll bar for better visibi
 Used :hover selector to highlight the input field if mouse is hovered over the input field 
 Used :focus selector to highlight the input field when it gets clicked.
 
-![Navigation top & middle](./readme-assets/nav-top-middle.JPG)
-![Navigation bottom](./readme-assets/nav-bottom.JPG)
+![Navigation top & middle](./readme-assets/nav-top-middle.JPG) ![Navigation bottom](./readme-assets/nav-bottom.JPG)
 
 
 
