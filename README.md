@@ -14,21 +14,20 @@ The initial sceleton of the platform (static several pages, made with html & css
 
 This project is the HTML and CSS based functional core structure of the solution working as a teaser and allowing interested people to request more information. By adding more elements in JavaScript and Python later it will become more functional, easier-to-use and beneficial for different users.
 
-##Table of Contents
+## Table of Contents
 
-#1. User Experience (UX) & Interface (UI)
+# 1. User Experience (UX) & Interface (UI)
 
 ##1.1 General Rules
 [Go to the top](#table-of-contents)
 
 While designing the functionality & user experience there were applied some guiding principles:
-*5 seconds rule: it has to be clear what the page is for in 5s (is it just for information, to perform an activity or leave a comment) and where to go next
-*2 clicks rule: user shall get to any core functionality (perform a task, order product, check the points balance, leave a message, etc.) in max-2 click from any page within the application.
-*call-to-action: at every page or stage there is an invitation "to do something" (contact, order, donate, perform a task or follow to instruction section).
-*consistency: every page has the same color scheme, similar structure, button design and follows a common practice of app design (OK buttons - green, main page - home, settings - in profile, etc.)
+* 5 seconds rule: it has to be clear what the page is for in 5s (is it just for information, to perform an activity or leave a comment) and where to go next
+* 2 clicks rule: user shall get to any core functionality (perform a task, order product, check the points balance, leave a m * call-to-action: at every page or stage there is an invitation "to do something" (contact, order, donate, perform a task or follow to instruction section).
+* consistency: every page has the same color scheme, similar structure, button design and follows a common practice of app design (OK buttons - green, main page - home, settings - in profile, etc.)
 
 
-##1.2 Personas
+## 1.2 Personas
 
 Alex : 25 years old sustainable business owner. He is promoting reusability and sharing, so he provides refillable containers for food products, supplies quality produce from different parts of the world and organizes communal workshops about circular economy. In addition to his facebook and Instagram accounts he would like to have an application where he can check the display and stock level in partner stores, activate on-line store and run continuous crowdfunding activities to support the business.  
 
@@ -46,15 +45,15 @@ With the help of https://www.color-hex.com/color-palettes/ DigitalZ has the colo
 
 
 
-##1.4 Structure (Flow)
+## 1.4 Structure (Flow)
 
 ###Wireframes
 To visualize the ideas and define the prioriies for the development BALSAMIQ tool was used. At first, larger (not full) site architecture was created, then prioritized what would be possible to do just with html and css, but already be a functional site and give a solid structure for the next upgrades.
 
 It was designed with both personas' interests in mind:
-*on the home-page: advertizing banners & money making actions - tasking & e-store (currently replaced by Contact link)
-*within advertizing/info pages: promo or instructional materials with a link to action
-*contact page: it is a form for giving the posibility to contact the solution operator and collecting info about the user (before proper log-in/sign-up form is developed)
+- on the home-page: advertizing banners & money making actions - tasking & e-store (currently replaced by Contact link)
+- within advertizing/info pages: promo or instructional materials with a link to action
+- contact page: it is a form for giving the posibility to contact the solution operator and collecting info about the user (before proper log-in/sign-up form is developed)
 
 Then, the concept pages for mobile and wide-screen were designed:
 
@@ -90,13 +89,13 @@ On top-nav and bottom-nav a pseudo-element :hover applied to attract the attenti
 
 DigitalZ logo from each page alvayws returns a user to home-page.
 
-#2.2 Banners/Images
+# 2.2 Banners/Images
 
 To keep the consistent design, but allow some flexibility there are two options to createfor banners
 
-#2.3 Info/Blog
+# 2.3 Info/Blog
 
-#2.4 Contact/Registration
+# 2.4 Contact/Registration
 
 Contact form is made with fixed width to have a consistent look across different screens. In screens over 600px, the filler-bacground-image is added for a better visual look.
 
