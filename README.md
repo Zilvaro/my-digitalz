@@ -12,7 +12,7 @@ The initial sceleton of the platform (static several pages, made with html & css
 ![website preview](/readme-assets/#)
 
 
-This project is the HTML and CSS created functional core structure of the solution functioning as a teaser and allowing interested people to request more information. By adding more elements in JavaScript and Python later it will become more functional, easier-to-use and beneficial for different businesses.
+This project is the HTML and CSS based functional core structure of the solution working as a teaser and allowing interested people to request more information. By adding more elements in JavaScript and Python later it will become more functional, easier-to-use and beneficial for different users.
 
 ##Table of Contents
 
@@ -22,86 +22,87 @@ This project is the HTML and CSS created functional core structure of the soluti
 [Go to the top](#table-of-contents)
 
 While designing the functionality & user experience there were applied some guiding principles:
-* 5 seconds rule: it has to be clear what the page is for in 5s (is it just for information, to perform an activity or leave a comment) and where to go next
-* call-to-action: at every page or stage there is an invitation "to do something" (contact, order, donate, perform a task or follow to instruction section).
-* consistency: every page has the same color scheme, similar structure, button design and follows a common practice of app design (OK buttons - green, main page - home, settings - in profile, etc.)
+*5 seconds rule: it has to be clear what the page is for in 5s (is it just for information, to perform an activity or leave a comment) and where to go next
+*2 clicks rule: user shall get to any core functionality (perform a task, order product, check the points balance, leave a message, etc.) in max-2 click from any page within the application.
+*call-to-action: at every page or stage there is an invitation "to do something" (contact, order, donate, perform a task or follow to instruction section).
+*consistency: every page has the same color scheme, similar structure, button design and follows a common practice of app design (OK buttons - green, main page - home, settings - in profile, etc.)
 
 
 ##1.2 Personas
 
-Alex
+Alex : 25 years old sustainable business owner. He is promoting reusability and sharing, so he provides refillable containers for food products, supplies quality produce from different parts of the world and organizes communal workshops about circular economy. In addition to his facebook and Instagram accounts he would like to have an application where he can check the display and stock level in partner stores, activate on-line store and run continuous crowdfunding activities to support the business.  
 
-Marion
+Marion : 42 years old grocery store manager that is looking how to improve the sales and make extra revenues for additional services. She is busy at the store, so is not in favour with visiting salesmen and merchandizers so for her the contractual tasks and communication with suppliers would be ideal if they happen at her own schedule. And posibility to have a personalized discount on supplies or extra revenue from performing some merchandising services would be very appreciated.
 
 
 
 ##1.3 Color Scheme
 
+The idea of the solution is that ad-banners, product pictures or story-images will be very colorful, therefore core color scheme was chosen to be calm, cool, but not cold.
+
+With the help of https://www.color-hex.com/color-palettes/ DigitalZ has the color combination that guaranties sufficient contrast, readibility and enough supporting colors to be engaging:
+
+![color scheme](./readme-assets/digitalz-color-scheme.jpg)
+
+
+
 ##1.4 Structure (Flow)
 
+###Wireframes
+To visualize the ideas and define the prioriies for the development BALSAMIQ tool was used. At first, larger (not full) site architecture was created, then prioritized what would be possible to do just with html and css, but already be a functional site and give a solid structure for the next upgrades.
+
+It was designed with both personas' interests in mind:
+*on the home-page: advertizing banners & money making actions - tasking & e-store (currently replaced by Contact link)
+*within advertizing/info pages: promo or instructional materials with a link to action
+*contact page: it is a form for giving the posibility to contact the solution operator and collecting info about the user (before proper log-in/sign-up form is developed)
+
+Then, the concept pages for mobile and wide-screen were designed:
+
+####Site-map
+![Site Map](./readme-assets/DigitalZ-wire-flow-v2%20.jpg)
+
+####Home-page
+![Home Page-mobile](./readme-assets/Digi_home_v1%20mobile.png)
+![Home Page-widescreen](./readme-assets/Digi_home_v1%20wide-screen.png)
+
+####Info-blog
+![Info-mobile](./readme-assets/Digi_info_articles_v1%20mobile.png)
+![Info-widescreen](./readme-assets/Digi_info_articles%20v1%20wide-screen.png)
+
+####Contact-registration
+![Contact](./readme-assets/Digi_contact_v1%20wide-screen.png)
 
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#2.Features
 
-`python3 -m http.server`
+#2.1 Navigation
 
-A blue button should appear to click: _Make Public_,
+#2.2 Banners/Images
 
-Another blue button should appear to click: _Open Browser_.
+#2.3 Info/Blog
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#2.4 Contact/Registration
 
-A blue button should appear to click: _Make Public_,
+#2.5 Features-to-come
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 ------
 
