@@ -22,9 +22,9 @@ This project is the HTML and CSS based functional core structure of the solution
 [Go to the top](#table-of-contents)
 
 While designing the functionality & user experience there were applied some guiding principles:
-* 5 seconds rule: it has to be clear what the page is for in 5s (is it just for information, to perform an activity or leave a comment) and where to go next
-* 2 clicks rule: user shall get to any core functionality (perform a task, order product, check the points balance, leave a m * call-to-action: at every page or stage there is an invitation "to do something" (contact, order, donate, perform a task or follow to instruction section).
-* consistency: every page has the same color scheme, similar structure, button design and follows a common practice of app design (OK buttons - green, main page - home, settings - in profile, etc.)
+- 5 seconds rule: it has to be clear what the page is for in 5s (is it just for information, to perform an activity or leave a comment) and where to go next
+- 2 clicks rule: user shall get to any core functionality (perform a task, order product, check the points balance, leave a m * call-to-action: at every page or stage there is an invitation "to do something" (contact, order, donate, perform a task or follow to instruction section).
+- consistency: every page has the same color scheme, similar structure, button design and follows a common practice of app design (OK buttons - green, main page - home, settings - in profile, etc.)
 
 
 ## 1.2 Personas
@@ -35,13 +35,17 @@ Marion : 42 years old grocery store manager that is looking how to improve the s
 
 
 
-##1.3 Color Scheme
+## 1.3 Color Scheme
 
 The idea of the solution is that ad-banners, product pictures or story-images will be very colorful, therefore core color scheme was chosen to be calm, cool, but not cold.
 
 With the help of https://www.color-hex.com/color-palettes/ DigitalZ has the color combination that guaranties sufficient contrast, readibility and enough supporting colors to be engaging:
 
 ![color scheme](./readme-assets/digitalz-color-scheme.jpg)
+
+
+Font-family is standard, looking great on multiple browsers: 'Segoe UI', sans-serif.
+
 
 
 
@@ -73,21 +77,21 @@ Then, the concept pages for mobile and wide-screen were designed:
 
 
 
-#2.Features
+# 2.Features
 
 
-#2.1 Navigation
+# 2.1 Navigation
 
 To increase site's accessibility and clarity 4 navigation elements were used:
 
-* 1. Top-navigation menu for screens wider than 600px 
-* 2. Bottom-navigation menu for screens bellow 600px width. Bottom nav is in the fixed-bottom position to be always accessible. 
-* 3. Middle page 2-button selection on the home-screen to core action-features: tasking & e-store (currently replased with Contact) 
-* 4. 'Breadcrumbs' on some internal pages with more related content (currently Info/article pages)
+1. Top-navigation menu for screens wider than 600px 
+2. Bottom-navigation menu for screens bellow 600px width. Bottom nav is in the fixed-bottom position to be always accessible. 
+3. Middle page 2-button selection on the home-screen to core action-features: tasking & e-store (currently replased with Contact) 
+4. 'Breadcrumbs' on some internal pages with more related content (currently Info/article pages)
 
 On top-nav and bottom-nav a pseudo-element :hover applied to attract the attention to user-actions and possibilities.
 
-DigitalZ logo from each page alvayws returns a user to home-page.
+DigitalZ logo from each page always returns a user to the home-page.
 
 # 2.2 Banners/Images
 
@@ -103,9 +107,13 @@ Message-box has overflow:auto attribute to create a scroll bar for etter visibil
 
 Used :hover selector to highlight the input field if mouse is hovered over the input field Used :focus selector to highlight the input field when it gets clicked.
 
-#2.5 Features-to-come (list is not complete)
 
-*1. Log-in/Sign-on *2. Task creation, execution & approval *3. Sharing: to allow user to share screen with friends *4. Community selection *5. Point management
+# 2.5 Features-to-come (list is not complete)
+
+1. Log-in/Sign-on 
+2. Task creation, execution & approval 
+3. Sharing: to allow user to share screen with friends 
+4. Community selection *5. Point management
 
 
 
