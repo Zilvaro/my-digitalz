@@ -129,6 +129,9 @@ Message-box has overflow:auto attribute to create a scroll bar for better visibi
 Used :hover selector to highlight the input field if mouse is hovered over the input field 
 Used :focus selector to highlight the input field when it gets clicked.
 
+![Navigation top & middle](./readme-assets/nav-top-middle.JPG)
+![Navigation bottom](./readme-assets/nav-bottom.JPG)
+
 
 
 # 2.5 Features-to-come (list is not complete)
@@ -139,7 +142,8 @@ Those features and some more are the integral part of completed DigitalZ solutio
 2. Task creation, execution & approval. !Note: MyTasks and e-store (Contact) buttons are included to the project at this stage, because they are structurally critical for the application. The true functionality will be added at the later stage (JavaScript/Python)
 3. Sharing: to allow user to share screen with friends 
 4. Community selection 
-5. Point management
+5. Points management
+6. E-store
 
 
 
