@@ -1,11 +1,12 @@
 ![DigitalZ logo](/images/blue-logo.png)
 
-Welcome!
+
+# Welcome!
 
 
 The idea is to develop a digital solution for SME or non-profits where they can, without any investment into development or licenses, equip themselves with crowdfunding, crowdsourcing and e-commerce tools to run and grow their business. It has been my experience from the last 7 years that such solution would be very relevant and in demand (one of the potential cleints would be "DKIRU", starting field operation in Mexico). This thought is supported by 2021-2027 EU initiative #AStrongerigitalEurope where the aim is to dramatically increase the use of digital tools and data usage for the growth of Small & Medium Enterprises (SMEs).
 
-Typically, a start-up, a small company or an association have a great idea, publish a facebook or business website and even connect to the e-commerce solution. However, the engagement from the business partners remain very low, because many tools are passive and you have to use several of them (WhatsApp, Facebook, Kickstarter, Shopify and a few more) to achieve the business impact. DigitaZ should be a unifying platform with several unique features that satisfy most of the business engagement needs in one platform.
+Typically, a start-up, a small company or an association have a great idea, publish facebook or business website and even connect to an e-commerce solution. However, the engagement from the business partners remain very low, because many tools are passive and you have to use several of them (WhatsApp, Facebook, Kickstarter, Shopify and a few more) to achieve the business impact. DigitaZ should be an unifying platform with several unique features that satisfy most of the business engagement needs in one platform.
 
 The working version of the mobile-web pages (static several pages, made with html & css) can be found [here](https://zilvaro.github.io/my-digitalz/index.html).
 
@@ -25,7 +26,8 @@ This project is the HTML and CSS based functional core structure of the solution
 
 While designing the functionality & user experience there were applied some guiding principles:
 - 5 seconds rule: it has to be clear what the page is for in 5s (e.g. is it just for information, to perform an activity or leave a comment) and where to go next
-- 2 clicks rule: user shall get to any core functionality (perform a task, order product, check the points balance, leave a m * call-to-action: at every page or stage there is an invitation "to do something" (contact, order, donate, perform a task or follow to instruction section).
+- 2 clicks rule: user shall get to any core functionality (perform a task, order product, check the points balance, leave a message. etc.) by maximum two browsing/clicking steps.  
+- call-to-action: at every page or stage there is an invitation "to do something" (contact, order, donate, perform a task or follow to instruction section).
 - consistency: every page has the same color scheme, similar structure, button design and follows a common practice of app design (OK buttons - green, main page - home, settings - in profile, etc.).
 
 The screen-max-width is set for 1100px to keep all the items in proportion. To keep all elements visually copmlete and related to each other, a light background was added that is always responsive to full screen size (not only up to 1100px).
@@ -55,7 +57,7 @@ Font-family is a standard one, that looks great on multiple browsers: 'Segoe UI'
 
 ## 1.4 Structure (Flow)
 
-###Wireframes
+### Wireframes
 To visualize the ideas and define the prioriies for the development BALSAMIQ tool was used. At first, larger (not full) site architecture was created, then prioritized what would be possible to do just with html and css, but already be a functional site and give a solid structure for the next upgrades.
 
 It was designed with both personas' interests in mind:
@@ -119,7 +121,7 @@ To keep the consistent design, but allow some flexibility there are two options 
 1. Flex box structure, where user (app admin) has fixed space, structure and design. Then he/she only changes the background image, text and link to futher material or site, e.g e-store's specific product page.
 2. Image placement as a banner. In case user has a special design neeeds and prepares image, say using Photoshop, it is possible to upload just that. (This choice will be implemented when back-end functionality is live).
 
-For the better appeal and user experience, the flow of the banners is different on small and large screens. In order not to have oversized buttons on large screens, the ASIDE banner is introduced. It moves into normal flow on small (less than 600px) screens.
+For the better visual appeal and user experience, the flow of the banners is different on small and large screens. In order not to have oversized buttons on large screens, the ASIDE banner is introduced. It moves into normal flow on small (less than 600px) screens.
 It uses 2 different banners, adjusted to match overall page style for better impact.
 
 ![banners-mobile](./readme-assets/banners-mobile.JPG) 
@@ -148,15 +150,24 @@ Contact form is made with fixed width to have a consistent look across different
 
 Message-box has overflow:auto attribute to create a scroll bar for better visibility if a text doesn't fit into the allocated field.
 
-Used :hover selector to highlight the input field if mouse is hovered over the input field.
+Used :hover selector to highlight each input field if mouse is hovered over it.
 
-Used :focus selector to highlight the input field when it gets clicked.
+Used :focus selector to highlight each input field when it gets clicked.
 
 ![contact-mobile](./readme-assets/contact-mobile.JPG)
 ![contact-widescreen](./readme-assets/contact-wide.JPG)
 
 
-## 2.5 Features-to-come (list is not complete)
+## 2.5 Profile
+
+Profile, ultimatelly, will be a place with all the settings (language, community, personal info...) and activity review (points/wallet, orders, leaderboard... ).
+At this stage, beacause all of the above are not functioning, it is all about the developer's info (!image - from unsplashed.com):
+
+![profile-mobile](./readme-assets/profile-mobile.JPG)
+![profile-widescreen](./readme-assets/profile-wide.JPG)
+
+
+## 2.6 Features-to-come (list is not complete)
 
 Those features and some more are the integral part of completed DigitalZ solution and they will be build later with a knowledge outside html and css.
 
@@ -167,6 +178,7 @@ Those features and some more are the integral part of completed DigitalZ solutio
 5. Points management
 6. E-store
 
+------
 
 
 
