@@ -7,14 +7,16 @@ The idea is to develop a digital solution for SME or non-profits where they can,
 
 Typically, a start-up, a small company or an association have a great idea, publish a facebook or business website and even connect to the e-commerce solution. However, the engagement from the business partners remain very low, because many tools are passive and you have to use several of them (WhatsApp, Facebook, Kickstarter, Shopify and a few more) to achieve the business impact. DigitaZ should be a unifying platform with several unique features that satisfy most of the business engagement needs in one platform.
 
-The initial sceleton of the platform (static several pages, made with html & css) can be found [here](https://zilvaro.github.io/my-digitalz/index.html).
+The working version of the mobile-web pages (static several pages, made with html & css) can be found [here](https://zilvaro.github.io/my-digitalz/index.html).
 
-![website preview](/readme-assets/#)
+![website preview](/readme-assets/digitalz-app-images.jpg)
+
+This project is the HTML and CSS based functional core structure of the solution that works as a teaser and allows people to request more information. By adding more elements in JavaScript and Python later it will become more functional, easier-to-use and beneficial for different users.
 
 
-This project is the HTML and CSS based functional core structure of the solution working as a teaser and allowing interested people to request more information. By adding more elements in JavaScript and Python later it will become more functional, easier-to-use and beneficial for different users.
 
-## Table of Contents
+
+# Table of Contents
 
 # 1. User Experience (UX) & Interface (UI)
 
@@ -22,7 +24,7 @@ This project is the HTML and CSS based functional core structure of the solution
 [Go to the top](#table-of-contents)
 
 While designing the functionality & user experience there were applied some guiding principles:
-- 5 seconds rule: it has to be clear what the page is for in 5s (is it just for information, to perform an activity or leave a comment) and where to go next
+- 5 seconds rule: it has to be clear what the page is for in 5s (e.g. is it just for information, to perform an activity or leave a comment) and where to go next
 - 2 clicks rule: user shall get to any core functionality (perform a task, order product, check the points balance, leave a m * call-to-action: at every page or stage there is an invitation "to do something" (contact, order, donate, perform a task or follow to instruction section).
 - consistency: every page has the same color scheme, similar structure, button design and follows a common practice of app design (OK buttons - green, main page - home, settings - in profile, etc.)
 
@@ -44,7 +46,7 @@ With the help of https://www.color-hex.com/color-palettes/ DigitalZ has the colo
 ![color scheme](./readme-assets/digitalz-color-scheme.jpg)
 
 
-Font-family is standard, looking great on multiple browsers: 'Segoe UI', sans-serif.
+Font-family is a standard one, that looks great on multiple browsers: 'Segoe UI', sans-serif.
 
 
 
@@ -61,19 +63,27 @@ It was designed with both personas' interests in mind:
 
 Then, the concept pages for mobile and wide-screen were designed:
 
-####Site-map
+### Site-map
+
 ![Site Map](./readme-assets/DigitalZ-wire-flow-v2%20.jpg)
 
-####Home-page
+
+### Home-page
+
 ![Home Page-mobile](./readme-assets/Digi_home_v1%20mobile.png)
 ![Home Page-widescreen](./readme-assets/Digi_home_v1%20wide-screen.png)
 
-####Info-blog
+
+### Info-blog
+
 ![Info-mobile](./readme-assets/Digi_info_articles_v1%20mobile.png)
 ![Info-widescreen](./readme-assets/Digi_info_articles%20v1%20wide-screen.png)
 
-####Contact-registration
+
+### Contact-registration
+
 ![Contact](./readme-assets/Digi_contact_v1%20wide-screen.png)
+
 
 
 
@@ -93,6 +103,11 @@ On top-nav and bottom-nav a pseudo-element :hover applied to attract the attenti
 
 DigitalZ logo from each page always returns a user to the home-page.
 
+![Navigation top & middle](./readme-assets/nav-top-middle.JPG) ![Navigation bottom](./readme-assets/nav-bottom.JPG) ![Navigation bottom](./readme-assets/nav-breadcrumbs.JPG)
+
+
+
+
 # 2.2 Banners/Images
 
 Banners and images on the home page are the eye-catchers for the products, instructions, services or promotions. Those will be used as free or paid advertisement banners linking to further content or action pages.
@@ -110,7 +125,7 @@ It uses 2 different banners, adjusted to match overall page style for better imp
 
 Info/blog section is to provide user with extra information or instructions before asking to take an action. It preferably has rigid structure:
 
-- header line that separates from the logo and nav, and indicates what is this page (including 'breadcrumbs' where relevant)
+- header line that separates an article from the logo and nav, and indicates what is this page (including 'breadcrumbs' where relevant)
 - photo, reflecting the purpose or content of the text
 - heading h1 text
 - summary text, that acts as a teaser to read more
@@ -130,7 +145,6 @@ Used :hover selector to highlight the input field if mouse is hovered over the i
 Used :focus selector to highlight the input field when it gets clicked.
 
 ![Navigation top & middle](./readme-assets/nav-top-middle.JPG) ![Navigation bottom](./readme-assets/nav-bottom.JPG)
-
 
 
 # 2.5 Features-to-come (list is not complete)
