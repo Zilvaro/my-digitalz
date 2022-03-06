@@ -72,19 +72,19 @@ Then, the concept pages for mobile and wide-screen were designed:
 
 ### Home-page
 
-![Home Page-mobile](./readme-assets/Digi_home_v1%20mobile.png)
-![Home Page-widescreen](./readme-assets/Digi_home_v1%20wide-screen.png)
+![home balsamiq page-mobile](./readme-assets/Digi_home_v1%20mobile.png)
+![home balsamiq page-widescreen](./readme-assets/Digi_home_v1%20wide-screen.png)
 
 
 ### Info-blog
 
-![Info-mobile](./readme-assets/Digi_info_articles_v1%20mobile.png)
-![Info-widescreen](./readme-assets/Digi_info_articles%20v1%20wide-screen.png)
+![balsamiq info-mobile](./readme-assets/Digi_info_articles_v1%20mobile.png)
+![balsamiq info-widescreen](./readme-assets/Digi_info_articles%20v1%20wide-screen.png)
 
 
 ### Contact-registration
 
-![Contact](./readme-assets/Digi_contact_v1%20wide-screen.png)
+![balsamiq contact](./readme-assets/Digi_contact_v1%20wide-screen.png)
 
 
 
@@ -105,11 +105,9 @@ On top-nav and bottom-nav a pseudo-element :hover applied to attract the attenti
 
 DigitalZ logo from each page always returns a user to the home-page.
 
-![Navigation top & middle](./readme-assets/nav-top-middle.JPG) 
-![Navigation bottom](./readme-assets/nav-bottom.JPG) 
-![Navigation breadcrumbs](./readme-assets/nav-breadcrumbs.JPG)
-
-
+![navigation top & middle](./readme-assets/nav-top-middle.JPG) 
+![navigation bottom](./readme-assets/nav-bottom.JPG) 
+![navigation breadcrumbs](./readme-assets/nav-breadcrumbs.JPG)
 
 
 ## 2.2 Banners/Images
@@ -136,10 +134,12 @@ Info/blog section is to provide user with extra information or instructions befo
 - photo, reflecting the purpose or content of the text
 - heading h1 text
 - summary text, that acts as a teaser to read more
-- text space, that has article structure of sections (with h3/h4 headings), lists of items.
+- text block, that has "article" structure of sections (with h3/h4 headings), lists of items.
 - call to action, where relevant, e.g Contact or Order.
 - copyright line, where relevant, e.g Privacy Policy page. 
 
+![info-mobile](./readme-assets/info-mobile.JPG) 
+![info-widescreen](./readme-assets/info-wide.JPG) 
 
 
 ## 2.4 Contact/Registration
@@ -148,10 +148,12 @@ Contact form is made with fixed width to have a consistent look across different
 
 Message-box has overflow:auto attribute to create a scroll bar for better visibility if a text doesn't fit into the allocated field.
 
-Used :hover selector to highlight the input field if mouse is hovered over the input field 
+Used :hover selector to highlight the input field if mouse is hovered over the input field.
+
 Used :focus selector to highlight the input field when it gets clicked.
 
-![Navigation top & middle](./readme-assets/nav-top-middle.JPG) ![Navigation bottom](./readme-assets/nav-bottom.JPG)
+![contact-mobile](./readme-assets/contact-mobile.JPG)
+![contact-widescreen](./readme-assets/contact-wide.JPG)
 
 
 ## 2.5 Features-to-come (list is not complete)
