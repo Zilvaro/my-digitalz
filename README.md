@@ -20,13 +20,15 @@ This project is the HTML and CSS based functional core structure of the solution
 
 # 1. User Experience (UX) & Interface (UI)
 
-##1.1 General Rules
+## 1.1 General Rules
 [Go to the top](#table-of-contents)
 
 While designing the functionality & user experience there were applied some guiding principles:
 - 5 seconds rule: it has to be clear what the page is for in 5s (e.g. is it just for information, to perform an activity or leave a comment) and where to go next
 - 2 clicks rule: user shall get to any core functionality (perform a task, order product, check the points balance, leave a m * call-to-action: at every page or stage there is an invitation "to do something" (contact, order, donate, perform a task or follow to instruction section).
-- consistency: every page has the same color scheme, similar structure, button design and follows a common practice of app design (OK buttons - green, main page - home, settings - in profile, etc.)
+- consistency: every page has the same color scheme, similar structure, button design and follows a common practice of app design (OK buttons - green, main page - home, settings - in profile, etc.).
+
+The screen-max-width is set for 1100px to keep all the items in proportion. To keep all elements visually copmlete and related to each other, a light background was added that is always responsive to full screen size (not only up to 1100px).
 
 
 ## 1.2 Personas
@@ -90,7 +92,7 @@ Then, the concept pages for mobile and wide-screen were designed:
 # 2.Features
 
 
-# 2.1 Navigation
+## 2.1 Navigation
 
 To increase site's accessibility and clarity 4 navigation elements were used:
 
@@ -103,12 +105,14 @@ On top-nav and bottom-nav a pseudo-element :hover applied to attract the attenti
 
 DigitalZ logo from each page always returns a user to the home-page.
 
-![Navigation top & middle](./readme-assets/nav-top-middle.JPG) ![Navigation bottom](./readme-assets/nav-bottom.JPG) ![Navigation bottom](./readme-assets/nav-breadcrumbs.JPG)
+![Navigation top & middle](./readme-assets/nav-top-middle.JPG) 
+![Navigation bottom](./readme-assets/nav-bottom.JPG) 
+![Navigation breadcrumbs](./readme-assets/nav-breadcrumbs.JPG)
 
 
 
 
-# 2.2 Banners/Images
+## 2.2 Banners/Images
 
 Banners and images on the home page are the eye-catchers for the products, instructions, services or promotions. Those will be used as free or paid advertisement banners linking to further content or action pages.
 
@@ -120,8 +124,11 @@ To keep the consistent design, but allow some flexibility there are two options 
 For the better appeal and user experience, the flow of the banners is different on small and large screens. In order not to have oversized buttons on large screens, the ASIDE banner is introduced. It moves into normal flow on small (less than 600px) screens.
 It uses 2 different banners, adjusted to match overall page style for better impact.
 
+![banners-mobile](./readme-assets/banners-mobile.JPG) 
+![banners-widescreen](./readme-assets/banners-wide.JPG) 
 
-# 2.3 Info/Blog
+
+## 2.3 Info/Blog
 
 Info/blog section is to provide user with extra information or instructions before asking to take an action. It preferably has rigid structure:
 
@@ -135,7 +142,7 @@ Info/blog section is to provide user with extra information or instructions befo
 
 
 
-# 2.4 Contact/Registration
+## 2.4 Contact/Registration
 
 Contact form is made with fixed width to have a consistent look across different screen sizes. In screens over 600px, the filler-background-image is added for a better visual look.
 
@@ -147,7 +154,7 @@ Used :focus selector to highlight the input field when it gets clicked.
 ![Navigation top & middle](./readme-assets/nav-top-middle.JPG) ![Navigation bottom](./readme-assets/nav-bottom.JPG)
 
 
-# 2.5 Features-to-come (list is not complete)
+## 2.5 Features-to-come (list is not complete)
 
 Those features and some more are the integral part of completed DigitalZ solution and they will be build later with a knowledge outside html and css.
 
