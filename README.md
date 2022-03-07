@@ -238,7 +238,7 @@ The pages were tested for
 - external links open in new tab and
 - the flow in general. 
 
-Plus, it was tested the form (Contact) functionality (if it check the correct inputs and submits the values entered):
+Plus, it was tested the form (Contact) functionality (if it checks the correct inputs and submits the values entered):
 
 ![form-wrong-field](./readme-assets/contact-wrong%20field.jpg)
 ![form-values-submission](./readme-assets/form-fill-test.JPG)
@@ -246,7 +246,7 @@ Plus, it was tested the form (Contact) functionality (if it check the correct in
 
 ---
 
-One bug was observed in the MyTask page with incorect block alignement. It was fixed by using Chrome Developer tool and removing position:absolute :
+One bug was observed in the MyTask page with incorect block alignment (the bottom div-block was hidden beneath the top one). It was fixed by using Chrome Developer tool and removing position:absolute :
 
 ![MyTask-bug-display](./readme-assets/my-tasks-testbug.JPG)
 ![MyTask-fixed-display](./readme-assets/my-tasks-fixed.JPG)
@@ -254,6 +254,22 @@ One bug was observed in the MyTask page with incorect block alignement. It was f
 
 ## Performance Testing
 
+Test was performed Chrome-Developer tools-Lighthouse test for all pages in mobile and desktop version. Some problems initially were on the home-page and privacy-policy pages.
+
+### Home page
+
+The performance was on the low side mainly due to the size of the images. By resizing all of them and changing the format to AVIF or WebP, the issue was fixed. To learn more about the correct formats (transparancy was needed on one of the images), avif.io/blog/comparisons/avif-vs-png/ information was used.
+
+![home-initial-test](./readme-assets/lighthouse-home-initial-test.JPG)
+![home-fixed-test](./readme-assets/lighthouse-home-fixed-test.JPG)
+
+
+### Info / Privacy Policy
+
+The second most problematic page was Privacy Policy. It was mainly to incorrect syntax at the end of 2 li (list) lines. It was also added the meta-description and alt-attributes to the anchor elements.
+
+![privacy-initial-test](./readme-assets/lighthouse-privacy-initial-test.JPG)
+![privacy-fixed-test](./readme-assets/lighthouse-privacy-fixed-test.JPG)
 
 
 
