@@ -341,6 +341,7 @@ ul.breadcrumb li a:hover {
     background-color: rgba(17, 17, 17, 0.6);
     color: white;
     font-size: 5vw;
+    position: relative;
     top: 25vw;
     left: 0;
 }

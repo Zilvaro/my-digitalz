@@ -183,9 +183,13 @@ Those features and some more are the integral part of completed DigitalZ solutio
 # 3.Technologies Used
 [Go to the top](#table-of-contents)
 
+## Languages Used
+
 - HTML5 (markup language) was used for structuring and presenting content of the website.
 
 - CSS3 (Cascading Style Sheets) was used to provide the style to the content written in a HTML.
+
+## Frameworks, Libraries and Programs Used
 
 - Balsamiq was used to create wireframes of the wensite (mobile-first and wide-screen versions).
 
@@ -205,13 +209,17 @@ Those features and some more are the integral part of completed DigitalZ solutio
 
 - Looka was used to generate the DigitalZ logo design
 
-- Unsplashed was used to select the images for the website
+- Unsplashed was used to choose the images for the website
 
 
 
 # 4.Testing
 
+The W3C Markup Validator, W3C CSS Validator and W3C Link Checker were used to validate every page and links of the project to ensure there were no syntax errors in the project.
 
+![W3C-html-validation](./readme-assets/digitalz-html-validator.JPG)
+![W3C-css-validation](./readme-assets/digitalz-css-validator.JPG)
+![W3C-links-checker](./readme-assets/w3-link-checker.JPG)
 
 
 
