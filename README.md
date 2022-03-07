@@ -180,9 +180,36 @@ Those features and some more are the integral part of completed DigitalZ solutio
 
 ------
 
+# 3.Technologies Used
+[Go to the top](#table-of-contents)
+
+- HTML5 (markup language) was used for structuring and presenting content of the website.
+
+- CSS3 (Cascading Style Sheets) was used to provide the style to the content written in a HTML.
+
+- Balsamiq was used to create wireframes of the wensite (mobile-first and wide-screen versions).
+
+- Paint.net was used to resize some of the images used.
+
+- FontAwesome was used to import icons.
+
+- Chrome was used to test the source code using HTML5 and responsiveness.
+
+- Github was used to create the repository and to store the project's code.
+
+- Gitpod was used as the Code Editor for the site
+
+- ColorHex was used to select the color-palette for the website.
+
+- W3C Markup and Jigsaw validation tools were used to validate the HTML code and CSS style used in the proejct.
+
+- Looka was used to generate the DigitalZ logo design
+
+- Unsplashed was used to select the images for the website
 
 
 
+# 4.Testing
 
 
 
