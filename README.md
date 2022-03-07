@@ -231,12 +231,15 @@ After every significant iteration, the code was tested using Chrome Developer to
 - Dell XPS 13" wide (9x16) laptop 
 - Samsung 24" regular (10x16) screen monitor
 
-The pages were tested for 
-- responsiveness + smooth change from vertical to horizontal layout
-- working intra-page links, 
-- accessibility (clarity of the page and next steps)
-- external links open in new tab and
-- the flow in general. 
+Each of the pages were tested for 
+1. responsiveness + smooth change from vertical to horizontal layout
+2. all images and texts are clear, readible and are not distorted on different screens
+3. all links to other pages work 
+4. accessibility (clarity of the page and next steps)
+5. external links open in new tab and
+6. the flow in general 
+
+ALL tests PASSED.
 
 Plus, it was tested the form (Contact) functionality (if it checks the correct inputs and submits the values entered):
 
@@ -271,6 +274,12 @@ The second most problematic page was Privacy Policy. It was mainly to incorrect 
 ![privacy-initial-test](./readme-assets/lighthouse-privacy-initial-test.JPG)
 ![privacy-fixed-test](./readme-assets/lighthouse-privacy-fixed-test.JPG)
 
+
+### Contact Form
+
+No major issues
+
+![contact-test](./readme-assets/lighthouse-contact-test.JPG)
 
 
 
