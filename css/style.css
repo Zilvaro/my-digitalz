@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
 }
+
 body {
     background-color: #fcfbfa;
     background-image: url(../images/background-lines-blue.png);
@@ -17,67 +18,84 @@ body {
     letter-spacing: 2px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
-        
-}/*font-weight 'normal' - some elements could be 300*/
+
+}
+
+/*font-weight 'normal' - some elements could be 300*/
 
 .header-space {
     width: 100%;
     height: 6rem;
 }
-#logo-image, #nav-top {
+
+#logo-image,
+#nav-top {
     line-height: 5rem;
 }
+
 #logo-image {
     height: 5rem;
     width: auto;
     padding: 5px;
     margin-left: 5px;
 }
+
 #nav-top {
     font-size: 110%;
-    float:right; 
+    float: right;
     clear: both;
 }
+
 li {
     list-style-type: none;
     margin-right: 30px;
     display: inline;
 }
+
 #nav-top a {
     text-decoration: none;
     color: inherit;
     font-weight: 400;
     vertical-align: middle;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 #nav-top a:hover {
     font-weight: 600;
     border-bottom: 1px solid #3a3a3a;
     color: rgb(4, 156, 4);
 }
+
 @media (max-width: 600px) {
-    nav { display: none; }
+    nav {
+        display: none;
+    }
 }
+
 /*all images have class:responsive*/
 .responsive {
     width: 100%;
     height: auto;
     overflow: hidden;
 }
+
 .container {
-    width:100%;
+    width: 100%;
     height: auto;
-    overflow:hidden;
+    overflow: hidden;
 
 }
+
 /*main banner css*/
 #main-banner {
     width: 100%;
     height: 40vw;
-    position: relative;     
+    position: relative;
 }
+
 #main-image {
     width: 100%;
     height: 40vw;
@@ -85,6 +103,7 @@ li {
     top: 0;
     left: 0;
 }
+
 #main-text p {
     width: 35%;
     height: 25vw;
@@ -101,10 +120,12 @@ li {
     top: 30%;
     left: 57%;
 }
+
 #horizontal-aside {
     width: 100%;
     height: auto;
 }
+
 /*two action buttons individual design*/
 .action-button {
     float: left;
@@ -113,7 +134,9 @@ li {
     text-align: center;
     overflow: hidden;
 }
-#button-left, #button-right {
+
+#button-left,
+#button-right {
     width: 22vw;
     height: 20vw;
     border: #34495E 2px solid;
@@ -124,8 +147,9 @@ li {
     font-size: 8vw;
     padding: 1vw;
     margin: 2vw 0;
-    color:#8ED3F4
+    color: #8ED3F4
 }
+
 .action-button h5 {
     font-size: 3vw;
 }
@@ -136,8 +160,9 @@ li {
     width: 100%;
     height: 150px;
     position: relative;
-    margin-top: 5px;      
+    margin-top: 5px;
 }
+
 .banner-image {
     width: 100%;
     height: 150px;
@@ -145,6 +170,7 @@ li {
     top: 0;
     left: 0;
 }
+
 .banner-text p {
     width: 98%;
     height: 35px;
@@ -161,14 +187,22 @@ li {
 /*home-responsive design*/
 
 @media (max-width: 600px) {
-    #vertical-aside { display: none; }
+    #vertical-aside {
+        display: none;
+    }
 }
+
 @media (min-width: 600px) {
-    #horizontal-aside { display: none; }
+    #horizontal-aside {
+        display: none;
+    }
+
     #home-responsive-left {
         width: 70%;
         height: auto;
-        float: left;    }
+        float: left;
+    }
+
     #vertical-aside {
         width: 20.2vw;
         height: auto;
@@ -178,25 +212,31 @@ li {
     #main-banner {
         height: 22vw;
     }
+
     #main-image {
         height: 22vw;
     }
+
     #main-text p {
         height: 10vw;
         padding-top: 1.2vw;
         font-size: 1.6vw;
-}
-.banner-container {
-    height: 300px;
-}
-.banner-image {
-    height: 300px;
-}
-.banner-text p {
-    width: 97%;
-    top: 65%;
-    font-size: 2vw;
-    height: 4rem;}
+    }
+
+    .banner-container {
+        height: 300px;
+    }
+
+    .banner-image {
+        height: 300px;
+    }
+
+    .banner-text p {
+        width: 97%;
+        top: 65%;
+        font-size: 2vw;
+        height: 4rem;
+    }
 }
 
 footer {
@@ -206,12 +246,17 @@ footer {
     position: fixed;
     left: 0px;
     bottom: 0px;
-    clear:both;
+    clear: both;
 }
 
 @media (min-width: 600px) {
-    footer { display: none;}
-    section .filler  { display: none;}
+    footer {
+        display: none;
+    }
+
+    section .filler {
+        display: none;
+    }
 }
 
 .footer-button {
@@ -225,14 +270,16 @@ footer {
     font-size: 1.8rem;
     color: #34495E;
     padding-top: 1rem;
-    }
+}
 
 .active-footer {
     background-color: rgba(48, 89, 50, 0.1);
 }
+
 .active-footer i {
-    color: #305932;    
+    color: #305932;
 }
+
 #copyright-text {
     clear: both;
     position: relative;
@@ -244,43 +291,49 @@ footer {
 }
 
 
-/*Tasking CSS*/
+/*Banner - beadcrumb CSS*/
 
 ul.breadcrumb {
     padding: 10px 30px;
     list-style: none;
     background-color: #305932;
-  }
-  ul.breadcrumb li {
+}
+
+ul.breadcrumb li {
     display: inline;
     font-size: 20px;
-    color:#fcfbfa;
-  }
-  ul.breadcrumb li+li:before {
+    color: #fcfbfa;
+}
+
+ul.breadcrumb li+li:before {
     color: #fcfbfa;
     content: "/\00a0";
-  }
-  ul.breadcrumb li a {
+}
+
+ul.breadcrumb li a {
     color: #fcfbfa;
     text-decoration: none;
-  }
-  ul.breadcrumb li a:hover {
+}
+
+ul.breadcrumb li a:hover {
     color: #fcfbfa;
     text-decoration: underline;
-  }
+}
+
 /*here is the test box testing*/
 
 #test-container {
     width: 100%;
+    max-width: 1100px;
     height: 40vw;
     background-image: url(../images/unsplash-284730-we-will-do.jpg);
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
     margin-top: 5px;
-           
+    clear: both;
 }
+
 #test-text p {
     width: 94%;
     height: 7vw;
@@ -288,31 +341,34 @@ ul.breadcrumb {
     background-color: rgba(17, 17, 17, 0.6);
     color: white;
     font-size: 5vw;
-    position: relative;
     top: 25vw;
-    left: 0;  
+    left: 0;
 }
+
 #test-text-box {
     width: 100%;
-    height: auto; 
+    height: auto;
     color: #111111;
     text-align: center;
 }
+
 #welcome-later {
     margin-top: 5vw;
     font-size: 7vw;
     font-weight: 600;
 }
+
 #test-learning {
     margin-top: 6vw;
     font-size: 5vw;
     font-weight: 600;
 }
+
 #sweting-image {
     font-size: 8vw;
     padding: 1vw;
     margin: 2vw 0;
-    color:#8ED3F4
+    color: #8ED3F4
 }
 
 
@@ -324,7 +380,8 @@ ul.breadcrumb {
     position: relative;
     float: left;
 }
-#contact-form-background  {
+
+#contact-form-background {
     max-width: 1100px;
     width: 100%;
     height: auto;
@@ -332,9 +389,13 @@ ul.breadcrumb {
     float: left;
     margin: 0 auto;
 }
+
 @media (max-width: 600px) {
-    #contact-form-background { display: none;}
+    #contact-form-background {
+        display: none;
+    }
 }
+
 .contact-form {
     margin: 3rem 10% 0 0;
     color: #fff;
@@ -345,6 +406,7 @@ ul.breadcrumb {
     left: 5%;
     padding: 30px;
 }
+
 .text-input {
     background: transparent;
     color: #000;
@@ -355,6 +417,7 @@ ul.breadcrumb {
     border-radius: 2px;
     padding-left: 3px;
 }
+
 #message-box {
     width: 100%;
     height: 80px;
@@ -362,7 +425,8 @@ ul.breadcrumb {
     overflow: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 3px;
-    }
+}
+
 #contact-thanks {
     width: 100%;
     height: 10vw;
@@ -374,9 +438,11 @@ ul.breadcrumb {
 .text-input:hover {
     border-color: #8ED3F4;
 }
+
 .text-input:focus {
     background-color: white;
 }
+
 .send-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -387,6 +453,7 @@ ul.breadcrumb {
     color: #fafafa;
     display: block;
 }
+
 .send-button:hover {
     background-color: #fafafa;
     color: #305932;
