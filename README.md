@@ -222,6 +222,39 @@ The W3C Markup Validator, W3C CSS Validator and W3C Link Checker were used to va
 ![W3C-links-checker](./readme-assets/w3-link-checker.JPG)
 
 
+## Flow Testing
+
+After every significant iteration, the code was tested using Chrome Developer tools and on several devices:
+
+- Nokia8 mobile phone
+- Samsung S5e tablet
+- Dell XPS 13" wide (9x16) laptop 
+- Samsung 24" regular (10x16) screen monitor
+
+The pages were tested for 
+- responsiveness + smooth change from vertical to horizontal layout
+- working intra-page links, 
+- accessibility (clarity of the page and next steps)
+- external links open in new tab and
+- the flow in general. 
+
+Plus, it was tested the form (Contact) functionality (if it check the correct inputs and submits the values entered):
+
+![form-wrong-field](./readme-assets/contact-wrong%20field.jpg)
+![form-values-submission](./readme-assets/form-fill-test.JPG)
+
+
+---
+
+One bug was observed in the MyTask page with incorect block alignement. It was fixed by using Chrome Developer tool and removing position:absolute :
+
+![MyTask-bug-display](./readme-assets/my-tasks-testbug.JPG)
+![MyTask-fixed-display](./readme-assets/my-tasks-fixed.JPG)
+
+
+## Performance Testing
+
+
 
 
 
