@@ -19,7 +19,50 @@ This project is the HTML and CSS based functional core structure of the solution
 
 # Table of Contents
 
-# 1. User Experience (UX) & Interface (UI)
+[1. User Experience (UX) & Interface (UI)](#ux)
+  - [1.1 General Rules](#general-rules)
+  - [1.2 Personas](#user-expectations)
+  -	[1.3 Color Scheme](#color-scheme)
+  - [1.4 Structure (Flow)](#audio-video)
+    - [Wireframes](#introduction-page)
+    - [Site-map](#theory-page)
+    - [Home-page](#feedback-page)
+    - [Info-blog](#theory-page)
+    - [Contact-registration](#theory-page)
+
+      
+[2. Features](#features)
+  - [2.1 Navigation](#general-rules)
+  - [2.2 Banners/Images](#user-expectations)
+  -	[2.3 Info/Blog](#color-scheme)
+  - [2.4 Contact/Registration](#audio-video)
+  - [2.5 Profile](#audio-video)
+  - [2.6 Features-to-come (list is not complete)](#audio-video)
+
+
+[3.Technologies used](#technologies-used)
+  - [2.1 Navigation](#general-rules)
+  - [2.2 Banners/Images](#user-expectations)
+
+  [4.Testing](#testing)
+  - [2.1 Navigation](#general-rules)
+  - [2.2 Banners/Images](#user-expectations)
+
+  [5.Bugs](#bugs)
+
+  [6. Deployment](#deployment)
+
+  [7. Acknowledgement](#acknowledgement)
+
+
+
+
+
+<a name="ux"></a>
+
+# 1.User Experience (UX) & Interface (UI)
+[Go to the top](#table-of-contents)
+
 
 ## 1.1 General Rules
 [Go to the top](#table-of-contents)
@@ -34,6 +77,7 @@ The screen-max-width is set for 1100px to keep all the items in proportion. To k
 
 
 ## 1.2 Personas
+[Go to the top](#table-of-contents)
 
 Alex : 25 years old sustainable business owner. He is promoting reusability and sharing, so he provides refillable containers for food products, supplies quality produce from different parts of the world and organizes communal workshops about circular economy. In addition to his facebook and Instagram accounts he would like to have an application where he can check the display and stock level in partner stores, activate on-line store and run continuous crowdfunding activities to support the business.  
 
@@ -42,6 +86,7 @@ Marion : 42 years old grocery store manager that is looking how to improve the s
 
 
 ## 1.3 Color Scheme
+[Go to the top](#table-of-contents)
 
 The idea of the solution is that ad-banners, product pictures or story-images will be very colorful, therefore core color scheme was chosen to be calm, cool, but not cold.
 
@@ -56,8 +101,12 @@ Font-family is a standard one, that looks great on multiple browsers: 'Segoe UI'
 
 
 ## 1.4 Structure (Flow)
+[Go to the top](#table-of-contents)
+
 
 ### Wireframes
+[Go to the top](#table-of-contents)
+
 To visualize the ideas and define the prioriies for the development BALSAMIQ tool was used. At first, larger (not full) site architecture was created, then prioritized what would be possible to do just with html and css, but already be a functional site and give a solid structure for the next upgrades.
 
 It was designed with both personas' interests in mind:
@@ -67,24 +116,29 @@ It was designed with both personas' interests in mind:
 
 Then, the concept pages for mobile and wide-screen were designed:
 
+
 ### Site-map
+[Go to the top](#table-of-contents)
 
 ![Site Map](./readme-assets/DigitalZ-wire-flow-v2%20.jpg)
 
 
 ### Home-page
+[Go to the top](#table-of-contents)
 
 ![home balsamiq page-mobile](./readme-assets/Digi_home_v1%20mobile.png)
 ![home balsamiq page-widescreen](./readme-assets/Digi_home_v1%20wide-screen.png)
 
 
 ### Info-blog
+[Go to the top](#table-of-contents)
 
 ![balsamiq info-mobile](./readme-assets/Digi_info_articles_v1%20mobile.png)
 ![balsamiq info-widescreen](./readme-assets/Digi_info_articles%20v1%20wide-screen.png)
 
 
 ### Contact-registration
+[Go to the top](#table-of-contents)
 
 ![balsamiq contact](./readme-assets/Digi_contact_v1%20wide-screen.png)
 
@@ -92,9 +146,11 @@ Then, the concept pages for mobile and wide-screen were designed:
 
 
 # 2.Features
+[Go to the top](#table-of-contents)
 
 
 ## 2.1 Navigation
+[Go to the top](#table-of-contents)
 
 To increase site's accessibility and clarity 4 navigation elements were used:
 
@@ -113,6 +169,7 @@ DigitalZ logo from each page always returns a user to the home-page.
 
 
 ## 2.2 Banners/Images
+[Go to the top](#table-of-contents)
 
 Banners and images on the home page are the eye-catchers for the products, instructions, services or promotions. Those will be used as free or paid advertisement banners linking to further content or action pages.
 
@@ -129,6 +186,7 @@ It uses 2 different banners, adjusted to match overall page style for better imp
 
 
 ## 2.3 Info/Blog
+[Go to the top](#table-of-contents)
 
 Info/blog section is to provide user with extra information or instructions before asking to take an action. It preferably has rigid structure:
 
@@ -145,6 +203,7 @@ Info/blog section is to provide user with extra information or instructions befo
 
 
 ## 2.4 Contact/Registration
+[Go to the top](#table-of-contents)
 
 Contact form is made with fixed width to have a consistent look across different screen sizes. In screens over 600px, the filler-background-image is added for a better visual look.
 
@@ -159,6 +218,7 @@ Used :focus selector to highlight each input field when it gets clicked.
 
 
 ## 2.5 Profile
+[Go to the top](#table-of-contents)
 
 Profile, ultimatelly, will be a place with all the settings (language, community, personal info...) and activity review (points/wallet, orders, leaderboard... ).
 At this stage, beacause all of the above are not functioning, it is all about the developer's info (!image - from unsplashed.com):
@@ -168,6 +228,7 @@ At this stage, beacause all of the above are not functioning, it is all about th
 
 
 ## 2.6 Features-to-come (list is not complete)
+[Go to the top](#table-of-contents)
 
 Those features and some more are the integral part of completed DigitalZ solution and they will be build later with a knowledge outside html and css.
 
@@ -183,11 +244,13 @@ Those features and some more are the integral part of completed DigitalZ solutio
 # 3.Technologies Used
 [Go to the top](#table-of-contents)
 
+
 ## Languages Used
 
 - HTML5 (markup language) was used for structuring and presenting content of the website.
 
 - CSS3 (Cascading Style Sheets) was used to provide the style to the content written in a HTML.
+
 
 ## Frameworks, Libraries and Programs Used
 
@@ -209,11 +272,12 @@ Those features and some more are the integral part of completed DigitalZ solutio
 
 - Looka was used to generate the DigitalZ logo design
 
-- Unsplashed was used to choose the images for the website
+- Unsplash.com was used to choose the images for the website
 
 
 
 # 4.Testing
+[Go to the top](#table-of-contents)
 
 The W3C Markup Validator, W3C CSS Validator and W3C Link Checker were used to validate every page and links of the project to ensure there were no syntax errors in the project.
 
@@ -223,6 +287,7 @@ The W3C Markup Validator, W3C CSS Validator and W3C Link Checker were used to va
 
 
 ## Flow Testing
+[Go to the top](#table-of-contents)
 
 After every significant iteration, the code was tested using Chrome Developer tools and on several devices:
 
@@ -256,10 +321,12 @@ One bug was observed in the MyTask page with incorect block alignment (the botto
 
 
 ## Performance Testing
+[Go to the top](#table-of-contents)
 
 Test was performed Chrome-Developer tools-Lighthouse test for all pages in mobile and desktop version. Some problems initially were on the home-page and privacy-policy pages.
 
 ### Home page
+[Go to the top](#table-of-contents)
 
 The performance was on the low side mainly due to the size of the images. By resizing all of them and changing the format to AVIF or WebP, the issue was fixed. To learn more about the correct formats (transparancy was needed on one of the images), avif.io/blog/comparisons/avif-vs-png/ information was used.
 
@@ -268,6 +335,7 @@ The performance was on the low side mainly due to the size of the images. By res
 
 
 ### Info / Privacy Policy
+[Go to the top](#table-of-contents)
 
 The second most problematic page was Privacy Policy. It was mainly to incorrect syntax at the end of 2 li (list) lines. It was also added the meta-description and alt-attributes to the anchor elements.
 
@@ -276,6 +344,7 @@ The second most problematic page was Privacy Policy. It was mainly to incorrect 
 
 
 ### Info-main page
+[Go to the top](#table-of-contents)
 
 No major issues
 
@@ -283,6 +352,7 @@ No major issues
 
 
 ### Contact Form
+[Go to the top](#table-of-contents)
 
 No major issues
 
@@ -290,6 +360,7 @@ No major issues
 
 
 ### Profile page
+[Go to the top](#table-of-contents)
 
 No major issues
 
@@ -297,6 +368,7 @@ No major issues
 
 
 ### MyTasks page
+[Go to the top](#table-of-contents)
 
 No major issues
 
@@ -304,45 +376,33 @@ No major issues
 
 
 
+<a name="deployment"></a>
 
+# 5.Deployment
+[Go to the top](#table-of-contents)
+
+The site was deployed to GitHub pages using the following steps:
+- Sign up to GutHub
+- Create a new repository on GitHub.
+- Click on settings on the navigation bar under the repository title.
+- Select pages on the left menu bar.
+- Click on the master branch and save.
+- This will now generate a link with your website live.
+- The live link can be found here - https://zilvaro.github.io/my-digitalz/
+
+
+<a name="acknowledgement"></a>
+
+# 6.Acknowledgement
+  [Go to the top](#table-of-contents)
+
+- For README.md file/Deployment section, reference of https://github.com/iKelvvv/MS1 was considered.
+- The code was created by developer with some theory and concepts explanations by W3C and HubSpot blog.
+- The texts were created by developer with pictures sourced from unsplash.com
+
+* Thanks to my mentor Marcel Mulders for his constructive feedback.
 
 
 
 ------
 
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
