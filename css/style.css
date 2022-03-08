@@ -391,9 +391,15 @@ ul.breadcrumb li a:hover {
     margin: 0 auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
     #contact-form-background {
         display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    #contact-form-background {
+        height: 95vw;
     }
 }
 
