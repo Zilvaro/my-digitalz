@@ -326,7 +326,7 @@ ALL tests PASSED.
 Plus, it was tested the form (Contact) functionality (if it checks the correct inputs and submits the values entered):
 
 ![form-wrong-field](./readme-assets/contact-wrongfield-small.jpg)
-![form-values-submission](./readme-assets/form-fill-test.JPG)
+![form-values-submission](./readme-assets/form-fill-test-small.jpg)
 
 
 ---
