@@ -96,7 +96,7 @@ With the help of https://www.color-hex.com/color-palettes/ DigitalZ has the colo
 ![color scheme](./readme-assets/digitalz-color-scheme-small.jpg)
 
 
-Font-family is a standard one, that looks great on multiple browsers: 'Segoe UI', sans-serif.
+Font-family is a standard one, that looks great on multiple browsers: **'Segoe UI', sans-serif**.
 
 
 <a name="wire-flow"></a>
@@ -219,9 +219,9 @@ Contact form is made with fixed width to have a consistent look across different
 
 Message-box has overflow:auto attribute to create a scroll bar for better visibility if a text doesn't fit into the allocated field.
 
-Used :hover selector to highlight each input field if mouse is hovered over it.
+Used **:hover** selector to highlight each input field if mouse is hovered over it.
 
-Used :focus selector to highlight each input field when it gets clicked.
+Used **:focus selector** to highlight each input field when it gets clicked.
 
 ![contact-mobile](./readme-assets/contact-mobile-small.jpg)
 ![contact-widescreen](./readme-assets/contact-wide-small.jpg)
@@ -325,7 +325,7 @@ ALL tests PASSED.
 
 Plus, it was tested the form (Contact) functionality (if it checks the correct inputs and submits the values entered):
 
-![form-wrong-field](./readme-assets/contact-wrong%20field.jpg)
+![form-wrong-field](./readme-assets/contact-wrongfield-small.jpg)
 ![form-values-submission](./readme-assets/form-fill-test.JPG)
 
 
@@ -411,10 +411,11 @@ The site was deployed to GitHub pages using the following steps:
 
 
 <a name="acknowledgement"></a>
+
 # 6.Acknowledgement
   [Go to the top](#table-of-contents)
 
-- For README.md file/Deployment section, reference of https://github.com/iKelvvv/MS1 was considered.
+- For README.md file/Deployment section, reference of github.com/iKelvvv/MS1 was considered.
 - The code was created by developer with some theory and concepts explanations by W3C and HubSpot blog.
 - The texts were created by developer with pictures sourced from unsplash.com
 
