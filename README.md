@@ -21,49 +21,49 @@ This project is the HTML and CSS based functional core structure of the solution
 
 [1. User Experience (UX) & Interface (UI)](#ux)
   - [1.1 General Rules](#general-rules)
-  - [1.2 Personas](#user-expectations)
+  - [1.2 Personas](#personas)
   -	[1.3 Color Scheme](#color-scheme)
-  - [1.4 Structure (Flow)](#audio-video)
-    - [Wireframes](#introduction-page)
-    - [Site-map](#theory-page)
-    - [Home-page](#feedback-page)
-    - [Info-blog](#theory-page)
-    - [Contact-registration](#theory-page)
+  - [1.4 Structure (Flow)](#wire-flow)
+    - [Wireframes](#wireframes)
+    - [Site-map](#wire-site-map)
+    - [Home-page](#wire-home)
+    - [Info-blog](#wire-info)
+    - [Contact-registration](#wire-contact)
 
       
 [2. Features](#features)
-  - [2.1 Navigation](#general-rules)
-  - [2.2 Banners/Images](#user-expectations)
-  -	[2.3 Info/Blog](#color-scheme)
-  - [2.4 Contact/Registration](#audio-video)
-  - [2.5 Profile](#audio-video)
-  - [2.6 Features-to-come (list is not complete)](#audio-video)
+  - [2.1 Navigation](#navigation)
+  - [2.2 Banners/Images](#banners)
+  -	[2.3 Info/Blog](#info)
+  - [2.4 Contact/Registration](#contact)
+  - [2.5 Profile](#profile)
+  - [2.6 Features-to-come (list is not complete)](#future-features)
 
 
 [3.Technologies used](#technologies-used)
-  - [2.1 Navigation](#general-rules)
-  - [2.2 Banners/Images](#user-expectations)
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries and Programs Used](#programs-used)
+  
 
-  [4.Testing](#testing)
-  - [2.1 Navigation](#general-rules)
-  - [2.2 Banners/Images](#user-expectations)
+[4.Testing](#testing)
+  - [Flow Testing](#flow-testing)
+  - [Performance Testing](#performance-testing)
 
-  [5.Bugs](#bugs)
+[5. Deployment](#deployment)
 
-  [6. Deployment](#deployment)
-
-  [7. Acknowledgement](#acknowledgement)
-
+[6. Acknowledgement](#acknowledgement)
 
 
 
 
-<a name="ux"></a>
+
+<a name="ux"></a> 
 
 # 1.User Experience (UX) & Interface (UI)
 [Go to the top](#table-of-contents)
 
 
+<a name="general-rules"></a>
 ## 1.1 General Rules
 [Go to the top](#table-of-contents)
 
@@ -76,6 +76,7 @@ While designing the functionality & user experience there were applied some guid
 The screen-max-width is set for 1100px to keep all the items in proportion. To keep all elements visually copmlete and related to each other, a light background was added that is always responsive to full screen size (not only up to 1100px).
 
 
+<a name="personas"></a>
 ## 1.2 Personas
 [Go to the top](#table-of-contents)
 
@@ -84,7 +85,7 @@ Alex : 25 years old sustainable business owner. He is promoting reusability and 
 Marion : 42 years old grocery store manager that is looking how to improve the sales and make extra revenues for additional services. She is busy at the store, so is not in favour with visiting salesmen and merchandizers so for her the contractual tasks and communication with suppliers would be ideal if they happen at her own schedule. And posibility to have a personalized discount on supplies or extra revenue from performing some merchandising services would be very appreciated.
 
 
-
+<a name="color-scheme"></a>
 ## 1.3 Color Scheme
 [Go to the top](#table-of-contents)
 
@@ -98,12 +99,12 @@ With the help of https://www.color-hex.com/color-palettes/ DigitalZ has the colo
 Font-family is a standard one, that looks great on multiple browsers: 'Segoe UI', sans-serif.
 
 
-
-
+<a name="wire-flow"></a>
 ## 1.4 Structure (Flow)
 [Go to the top](#table-of-contents)
 
 
+<a name="wireframes"></a>
 ### Wireframes
 [Go to the top](#table-of-contents)
 
@@ -117,12 +118,14 @@ It was designed with both personas' interests in mind:
 Then, the concept pages for mobile and wide-screen were designed:
 
 
+<a name="wire-site-map"></a>
 ### Site-map
 [Go to the top](#table-of-contents)
 
 ![Site Map](./readme-assets/DigitalZ-wire-flow-v2%20.jpg)
 
 
+<a name="wire-home"></a>
 ### Home-page
 [Go to the top](#table-of-contents)
 
@@ -130,6 +133,7 @@ Then, the concept pages for mobile and wide-screen were designed:
 ![home balsamiq page-widescreen](./readme-assets/Digi_home_v1%20wide-screen.png)
 
 
+<a name="wire-info"></a>
 ### Info-blog
 [Go to the top](#table-of-contents)
 
@@ -137,6 +141,7 @@ Then, the concept pages for mobile and wide-screen were designed:
 ![balsamiq info-widescreen](./readme-assets/Digi_info_articles%20v1%20wide-screen.png)
 
 
+<a name="wire-contact"></a>
 ### Contact-registration
 [Go to the top](#table-of-contents)
 
@@ -144,11 +149,12 @@ Then, the concept pages for mobile and wide-screen were designed:
 
 
 
-
+<a name="features"></a>
 # 2.Features
 [Go to the top](#table-of-contents)
 
 
+<a name="navigation"></a>
 ## 2.1 Navigation
 [Go to the top](#table-of-contents)
 
@@ -168,6 +174,7 @@ DigitalZ logo from each page always returns a user to the home-page.
 ![navigation breadcrumbs](./readme-assets/nav-breadcrumbs.JPG)
 
 
+<a name="banners"></a>
 ## 2.2 Banners/Images
 [Go to the top](#table-of-contents)
 
@@ -185,6 +192,7 @@ It uses 2 different banners, adjusted to match overall page style for better imp
 ![banners-widescreen](./readme-assets/banners-wide.JPG) 
 
 
+<a name="info"></a>
 ## 2.3 Info/Blog
 [Go to the top](#table-of-contents)
 
@@ -202,6 +210,7 @@ Info/blog section is to provide user with extra information or instructions befo
 ![info-widescreen](./readme-assets/info-wide.JPG) 
 
 
+<a name="contact"></a>
 ## 2.4 Contact/Registration
 [Go to the top](#table-of-contents)
 
@@ -217,6 +226,7 @@ Used :focus selector to highlight each input field when it gets clicked.
 ![contact-widescreen](./readme-assets/contact-wide.JPG)
 
 
+<a name="profile"></a>
 ## 2.5 Profile
 [Go to the top](#table-of-contents)
 
@@ -227,6 +237,7 @@ At this stage, beacause all of the above are not functioning, it is all about th
 ![profile-widescreen](./readme-assets/profile-wide.JPG)
 
 
+<a name="future-features"></a>
 ## 2.6 Features-to-come (list is not complete)
 [Go to the top](#table-of-contents)
 
@@ -241,10 +252,12 @@ Those features and some more are the integral part of completed DigitalZ solutio
 
 ------
 
+<a name="technologies-used"></a>
 # 3.Technologies Used
 [Go to the top](#table-of-contents)
 
 
+<a name="languages-used"></a>
 ## Languages Used
 
 - HTML5 (markup language) was used for structuring and presenting content of the website.
@@ -252,6 +265,7 @@ Those features and some more are the integral part of completed DigitalZ solutio
 - CSS3 (Cascading Style Sheets) was used to provide the style to the content written in a HTML.
 
 
+<a name="programs-used"></a>
 ## Frameworks, Libraries and Programs Used
 
 - Balsamiq was used to create wireframes of the wensite (mobile-first and wide-screen versions).
@@ -276,6 +290,7 @@ Those features and some more are the integral part of completed DigitalZ solutio
 
 
 
+<a name="testing"></a>
 # 4.Testing
 [Go to the top](#table-of-contents)
 
@@ -286,6 +301,7 @@ The W3C Markup Validator, W3C CSS Validator and W3C Link Checker were used to va
 ![W3C-links-checker](./readme-assets/w3-link-checker.JPG)
 
 
+<a name="flow-testing"></a>
 ## Flow Testing
 [Go to the top](#table-of-contents)
 
@@ -320,10 +336,12 @@ One bug was observed in the MyTask page with incorect block alignment (the botto
 ![MyTask-fixed-display](./readme-assets/my-tasks-fixed.JPG)
 
 
+<a name="performance-testing"></a>
 ## Performance Testing
 [Go to the top](#table-of-contents)
 
 Test was performed Chrome-Developer tools-Lighthouse test for all pages in mobile and desktop version. Some problems initially were on the home-page and privacy-policy pages.
+
 
 ### Home page
 [Go to the top](#table-of-contents)
@@ -377,7 +395,6 @@ No major issues
 
 
 <a name="deployment"></a>
-
 # 5.Deployment
 [Go to the top](#table-of-contents)
 
@@ -391,8 +408,8 @@ The site was deployed to GitHub pages using the following steps:
 - The live link can be found here - https://zilvaro.github.io/my-digitalz/
 
 
-<a name="acknowledgement"></a>
 
+<a name="acknowledgement"></a>
 # 6.Acknowledgement
   [Go to the top](#table-of-contents)
 
