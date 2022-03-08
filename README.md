@@ -93,7 +93,7 @@ The idea of the solution is that ad-banners, product pictures or story-images wi
 
 With the help of https://www.color-hex.com/color-palettes/ DigitalZ has the color combination that guaranties sufficient contrast, readability and enough supporting colors to be engaging:
 
-![color scheme](./readme-assets/digitalz-color-scheme.jpg)
+![color scheme](./readme-assets/digitalz-color-scheme-small.jpg)
 
 
 Font-family is a standard one, that looks great on multiple browsers: 'Segoe UI', sans-serif.
@@ -170,7 +170,7 @@ On top-nav and bottom-nav a pseudo-element :hover applied to attract the attenti
 
 DigitalZ logo from each page always returns a user to the home-page.
 
-![navigation top & middle](./readme-assets/nav-top-middle.JPG) 
+![navigation top & middle](./readme-assets/nav-top-middle-small.jpg) 
 ![navigation bottom](./readme-assets/nav-bottom.JPG) 
 ![navigation breadcrumbs](./readme-assets/nav-breadcrumbs.JPG)
 
@@ -189,8 +189,8 @@ To keep the consistent design, but allow some flexibility there will be two opti
 For the better visual appeal and user experience, the flow of the banners is different on small and large screens. In order not to have oversized buttons on large screens, the ASIDE banner is introduced. It moves into normal flow on small (less than 600px) screens.
 It uses 2 different banners, adjusted to match overall page style for better impact.
 
-![banners-mobile](./readme-assets/banners-mobile.JPG) 
-![banners-widescreen](./readme-assets/banners-wide.JPG) 
+![banners-mobile](./readme-assets/banners-mobile-small.jpg) 
+![banners-widescreen](./readme-assets/banners-wide-small.jpg) 
 
 
 <a name="info"></a>
@@ -207,8 +207,8 @@ Info/blog section is to provide user with extra information or instructions befo
 - call to action, where relevant, e.g. Contact or Order.
 - copyright line, where relevant, e.g. Privacy Policy page. 
 
-![info-mobile](./readme-assets/info-mobile.JPG) 
-![info-widescreen](./readme-assets/info-wide.JPG) 
+![info-mobile](./readme-assets/info-mobile-small.jpg) 
+![info-widescreen](./readme-assets/info-wide-small.jpg) 
 
 
 <a name="contact"></a>
@@ -223,8 +223,8 @@ Used :hover selector to highlight each input field if mouse is hovered over it.
 
 Used :focus selector to highlight each input field when it gets clicked.
 
-![contact-mobile](./readme-assets/contact-mobile.JPG)
-![contact-widescreen](./readme-assets/contact-wide.JPG)
+![contact-mobile](./readme-assets/contact-mobile-small.jpg)
+![contact-widescreen](./readme-assets/contact-wide-small.jpg)
 
 
 <a name="profile"></a>
@@ -234,8 +234,8 @@ Used :focus selector to highlight each input field when it gets clicked.
 Profile, ultimately, will be a place with all the settings (language, community, personal info...) and activity review (points/wallet, orders, leader-board... ).
 At this stage, because all of the above are not functioning, it is all about the developer's info (!image - from unsplashed.com):
 
-![profile-mobile](./readme-assets/profile-mobile.JPG)
-![profile-widescreen](./readme-assets/profile-wide.JPG)
+![profile-mobile](./readme-assets/profile-mobile-small.jpg)
+![profile-widescreen](./readme-assets/profile-wide-small.jpg)
 
 
 <a name="future-features"></a>
