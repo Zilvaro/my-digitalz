@@ -275,6 +275,13 @@ The second most problematic page was Privacy Policy. It was mainly to incorrect 
 ![privacy-fixed-test](./readme-assets/lighthouse-privacy-fixed-test.JPG)
 
 
+### Info-main page
+
+No major issues
+
+![info-test](./readme-assets/lighthouse-info-blog-test.JPG)
+
+
 ### Contact Form
 
 No major issues
@@ -282,7 +289,18 @@ No major issues
 ![contact-test](./readme-assets/lighthouse-contact-test.JPG)
 
 
+### Profile page
 
+No major issues
+
+![profile-test](./readme-assets/lighthouse-profile-test.JPG)
+
+
+### MyTasks page
+
+No major issues
+
+![myTasks-test](./readme-assets/lighthouse-myTasks-test.JPG)
 
 
 
