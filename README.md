@@ -80,9 +80,9 @@ The screen-max-width is set for 1100px to keep all the items in proportion. To k
 ## 1.2 Personas
 [Go to the top](#table-of-contents)
 
-Alex : 25 years old sustainable business owner. He is promoting reusability and sharing, so he provides refillable containers for food products, supplies quality produce from different parts of the world and organizes communal workshops about circular economy. In addition to his Facebook and Instagram accounts he would like to have an application where he can check the display and stock level in partner stores, activate on-line store and run continuous crowdfunding activities to support the business.  
+**Alex** : 25 years old sustainable business owner. He is promoting reusability and sharing, so he provides refillable containers for food products, supplies quality produce from different parts of the world and organizes communal workshops about circular economy. In addition to his Facebook and Instagram accounts he would like to have an application where he can check the display and stock level in partner stores, activate on-line store and run continuous crowdfunding activities to support the business.  
 
-Marion : 42 years old grocery store manager that is looking how to improve the sales and make extra revenues for additional services. She is busy at the store, so is not in favour with visiting salesmen and merchandizers so for her the contractual tasks and communication with suppliers would be ideal if they happen at her own schedule. And possibility to have a personalized discount on supplies or extra revenue from performing some merchandising services would be very appreciated.
+**Marion** : 42 years old grocery store manager that is looking how to improve the sales and make extra revenues for additional services. She is busy at the store, so is not in favour with visiting salesmen and merchandizers so for her the contractual tasks and communication with suppliers would be ideal if they happen at her own schedule. And possibility to have a personalized discount on supplies or extra revenue from performing some merchandising services would be very appreciated.
 
 
 <a name="color-scheme"></a>
@@ -122,30 +122,31 @@ Then, the concept pages for mobile and wide-screen were designed:
 ### Site-map
 [Go to the top](#table-of-contents)
 
-![Site Map](./readme-assets/DigitalZ-wire-flow-v2%20.jpg)
+![Site Map](./readme-assets/DigitalZ-wire-flow-small.jpg)
 
 
 <a name="wire-home"></a>
 ### Home-page
 [Go to the top](#table-of-contents)
 
-![home balsamiq page-mobile](./readme-assets/Digi_home_v1%20mobile.png)
-![home balsamiq page-widescreen](./readme-assets/Digi_home_v1%20wide-screen.png)
+![home balsamiq page-mobile](./readme-assets/Digi-home-v1-mobile-small.jpg)
+![home balsamiq page-widescreen](./readme-assets/Digi-home-v1-widescreen-small.jpg)
 
 
 <a name="wire-info"></a>
 ### Info-blog
 [Go to the top](#table-of-contents)
 
-![balsamiq info-mobile](./readme-assets/Digi_info_articles_v1%20mobile.png)
-![balsamiq info-widescreen](./readme-assets/Digi_info_articles%20v1%20wide-screen.png)
+![balsamiq info-mobile](./readme-assets/Digi-info-articles-v1-mobile-small.jpg)
+![balsamiq info-widescreen](./readme-assets/Digi-info-articles-v1-widescreen-small.jpg)
 
 
 <a name="wire-contact"></a>
 ### Contact-registration
 [Go to the top](#table-of-contents)
 
-![balsamiq contact](./readme-assets/Digi_contact_v1%20wide-screen.png)
+![balsamiq contact-mobile](./readme-assets/Digi-contact-v2-mobile.jpg)
+![balsamiq contact](./readme-assets/Digi-contact-v1-widescreen-.jpg)
 
 
 
